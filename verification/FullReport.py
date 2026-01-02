@@ -341,8 +341,8 @@ def check_psp_icon0_sync(collection_names: set[str]) -> list[Path]:
 
     # Check both psp-icon0 directories
     psp_dirs = [
-        COMPOSITES_DIR / "psp-icon" / "psp-icon0-generated",
-        COMPOSITES_DIR / "psp-icon" / "psp-icon0-bespoke"
+        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated",
+        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke"
     ]
 
     for psp_dir in psp_dirs:
