@@ -28,7 +28,7 @@ jobs:
 
     - name: Generate completion report
       run: |
-        cd tooling
+        cd verification
         python FullReport.py > ../completion_report.txt
 
     - name: Update COMPLETION.md
