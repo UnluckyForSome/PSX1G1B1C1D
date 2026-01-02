@@ -7,11 +7,11 @@ This project aims to provide a clean, consistent collection of PlayStation media
 <br/>
 
 <p align="center">
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/2dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/library/2dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/3dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/library/3dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/disc/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/library/disc/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
 </p>
 
 <p align="center">
@@ -29,13 +29,13 @@ Having a fully consistent collection means we can programmatically create beauti
 For example — **PSP / PS Vita PIC0.png eBOOT artwork**:
 
 <p align="center">
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/composites/psp-pic0/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="50%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/psp-pic0/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="50%" />
 </p>
 
 And **consistant PSP ICON0 images** in the same style as the official ones:
 
 <p align="center">
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/composites/psp-icon0-tiled/1.jpg?raw=true" width="100%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/psp-icon0/psp-icon0-tiled/1.jpg?raw=true" width="100%" />
 </p>
 
 ---
