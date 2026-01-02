@@ -1,0 +1,8 @@
+# Ignore scripts folder
+tooling/
+
+# Ignore private folder
+private/
+
+
+
