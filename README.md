@@ -1,0 +1,61 @@
+### 🎮 PSX1G1B1C1D
+
+**PSX1G1B1C1D** stands for **PlayStation — 1 Game, 1 Box, 1 Cover, 1 Disc**.
+
+This project aims to provide a clean, consistent collection of PlayStation media for every single title — with one standard box render and one disc image per game.
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/2dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/3dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/assets/disc/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
+</p>
+
+<p align="center">
+  <sub>2D Box&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;3D Box&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;Disc</sub>
+</p>
+
+<br/>
+
+---
+
+### 🧩 Why?
+
+Having a fully consistent collection means we can programmatically create beautiful **composite preview images** for use in emulators and game libraries.
+
+For example — **PSP / PS Vita PIC0.png eBOOT artwork**:
+
+<p align="center">
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/composites/psp-pic0/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="50%" />
+</p>
+
+And **consistant PSP ICON0 images** in the same style as the official ones:
+
+<p align="center">
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1D/blob/main/composites/psp-icon0-tiled/1.jpg?raw=true" width="100%" />
+</p>
+
+---
+
+### 📦 Project Goals
+
+#### 🎞️ Media
+- 🎮 One **Game** (selected using the consistency rules below)
+- 🎨 One **2D cover image**
+- 📦 One **3D box render**
+- 💿 One **Disc artwork image**
+
+#### 📏 Consistency
+- 🏷️ Always aligned to the latest **Redump .DAT**
+- 📁 No duplicates — filtered in a **1G1R-style** approach using **Retool**
+- 🔧 Missing or low-quality media is tracked and improved over time
+
+#### 🤖 Programmatic
+- 🧩 Assets designed to be reusable in automated composites and front-ends
+
+---
+
+### 😊 Have fun!
