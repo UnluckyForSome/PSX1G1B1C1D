@@ -1,0 +1,70 @@
+name: Library Change Completion Report
+
+on:
+  push:
+    paths:
+      - 'library/**'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-completion-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch full history for git log
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install Pillow
+
+    - name: Generate completion report
+      run: |
+        cd tooling
+        python FullReport.py > ../completion_report.txt
+
+    - name: Update COMPLETION.md
+      run: |
+        # Create header with timestamp
+        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        HEADER="This completion report is updated when there is a change in the **library** folder. It should contain the most recent completion.
+
+**Last Updated:** ${TIMESTAMP}
+
+\`\`\`"
+
+        # Combine header, report content, and footer
+        {
+          echo "$HEADER"
+          cat completion_report.txt
+          echo '```'
+        } > COMPLETION.md
+
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.changes_found == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+        # Check if there are changes to commit
+        if git diff --quiet COMPLETION.md; then
+          echo "No changes to COMPLETION.md, skipping commit"
+        else
+          git add COMPLETION.md
+          git commit -m "Update completion report [automated]"
+          git push
+        fi
+
+    - name: Clean up
+      if: always()
+      run: |
+        # Remove temporary files
+        rm -f completion_report.txt
