@@ -44,13 +44,13 @@ COLLECTION_DIRS = {
         LIBRARY_DIR / "disc-missing",
     ],
     "psp-icon0": [
-        COMPOSITES_DIR / "psp-icon" / "psp-icon0-generated",
-        COMPOSITES_DIR / "psp-icon" / "psp-icon0-bespoke",
+        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated",
+        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke",
     ],
 }
 
 # Bespoke icon0 directory (should sync with collection)
-PSP_ICON0_BESPOKE_DIR = COMPOSITES_DIR / "psp-icon" / "psp-icon0-bespoke"
+PSP_ICON0_BESPOKE_DIR = COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke"
 
 
 def extract_revision(name: str) -> tuple[str, int | None]:
@@ -226,8 +226,8 @@ def check_image_exists(game_name: str, category: str) -> tuple[bool, str]:
         ]
     elif category == "psp-icon0":
         dirs = [
-            (COMPOSITES_DIR / "psp-icon" / "psp-icon0-generated", "generated"),
-            (COMPOSITES_DIR / "psp-icon" / "psp-icon0-bespoke", "bespoke"),
+            (COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated", "generated"),
+            (COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke", "bespoke"),
         ]
     else:
         return (False, None)
