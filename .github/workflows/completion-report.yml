@@ -35,21 +35,23 @@ jobs:
       run: |
         # Create header with timestamp
         TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-        HEADER="This completion report is updated when there is a change in the **library** folder. It should contain the most recent completion.
+        cat > COMPLETION.md << 'EOF'
+        This completion report is updated when there is a change in the **library** folder. It should contain the most recent completion.
 
-**Last Updated:** ${TIMESTAMP}
+        **Last Updated:** TIMESTAMP_PLACEHOLDER
 
-\`\`\`"
+        ```
+        EOF
 
-        # Combine header, report content, and footer
-        {
-          echo "$HEADER"
-          cat completion_report.txt
-          echo '```'
-        } > COMPLETION.md
+        # Replace timestamp placeholder
+        sed -i "s/TIMESTAMP_PLACEHOLDER/${TIMESTAMP}/g" COMPLETION.md
+
+        # Append the report content
+        echo "" >> COMPLETION.md
+        cat completion_report.txt >> COMPLETION.md
+        echo '```' >> COMPLETION.md
 
     - name: Commit and push changes
-      if: steps.check-changes.outputs.changes_found == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
