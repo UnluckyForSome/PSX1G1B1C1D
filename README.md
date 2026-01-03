@@ -34,7 +34,7 @@ This project aims to provide a clean, consistent collection of PlayStation media
 
 ### 🧩 Why?
 
-Having a fully consistent collection means we can programmatically create cool **composite preview images** for use in emulators and game libraries.
+Image files assigned to the correct Redump names allow for perfect automation in a variety of projects - Having a fully consistent images mean we can programmatically create cool **composite preview images** for use in emulators and game libraries. 
 
 For example — **PSP PIC0.png eBOOT artwork**:
 
