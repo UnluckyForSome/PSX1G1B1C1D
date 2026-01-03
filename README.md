@@ -45,7 +45,7 @@ For example — **PSP PIC0.png eBOOT artwork**:
 And **consistant PSP ICON0 images** in the same style as the official ones:
 
 <p align="center">
-  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/psp-icon0-tiled/1.png?raw=true" width="100%" />
+  <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/other/icon0-tiled1.jpg" width="100%" />
 </p>
 
 ---
