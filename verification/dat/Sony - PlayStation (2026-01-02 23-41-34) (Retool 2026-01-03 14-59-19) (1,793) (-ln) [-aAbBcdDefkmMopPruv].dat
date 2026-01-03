@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sony - PlayStation (Retool)</name>
-		<description>Sony - PlayStation (1,815) (-ln) [-aAbBcdefkmpuv] (2026-01-02 23-41-34) (Retool)</description>
+		<description>Sony - PlayStation (1,793) (-ln) [-aAbBcdDefkmMopPruv] (2026-01-02 23-41-34) (Retool)</description>
 		<version>2026-01-02 23-41-34</version>
-		<date>2026-01-03 02-13-55</date>
+		<date>2026-01-03 14-59-19</date>
 		<author>redump.org</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>http://redump.org/</url>
@@ -378,12 +378,6 @@
 		<rom name="Adventures of Lomax, The (USA) (Track 24).bin" size="10762752" crc="f7bc1f32" md5="aa23f925394fd6e528689d706eecceb8" sha1="f071e4a5a949dd39fec099b3541f3693283965e3"/>
 		<rom name="Adventures of Lomax, The (USA) (Track 25).bin" size="32956224" crc="d3e6bd45" md5="2c099577a323aff0ef96be98060ccd1d" sha1="63feeadcc3f55107ba54d1a2a280a266de9ebab1"/>
 		<rom name="Adventures of Lomax, The (USA).cue" size="3107" crc="d3a22ea4" md5="26cd255ebd0a0353aaa755804dfe9daa" sha1="807184d8eceecd8fd4bffec470fbca89cadb21db"/>
-	</game>
-	<game name="Aeon Flux (USA) (Proto) (1996-11-21)">
-		<category>Preproduction</category>
-		<description>Aeon Flux (USA) (Proto) (1996-11-21)</description>
-		<rom name="Aeon Flux (USA) (Proto) (1996-11-21).bin" size="8796480" crc="c3c19ee2" md5="d1cb7fd5f9a9fef46f78a6f43f4bd2fa" sha1="b30f7c6822ab66594e952c138bed7b38bb83d155"/>
-		<rom name="Aeon Flux (USA) (Proto) (1996-11-21).cue" size="102" crc="8994454b" md5="d785127d8c53237301a374878c54bf6b" sha1="9d155473f668801079d4b6d018cb7f9815cef0fb"/>
 	</game>
 	<game name="Agent Armstrong (Europe) (En,Fr,De,Es)">
 		<category>Games</category>
@@ -960,18 +954,6 @@
 		<rom name="Arc the Lad Collection - Arc the Lad III (USA) (Disc 2).bin" size="731972976" crc="6d64aa1c" md5="f957f526e8a45255c687bec8a8459541" sha1="e138bec408d7ae8230c63777c44114712e8f99bc"/>
 		<rom name="Arc the Lad Collection - Arc the Lad III (USA) (Disc 2).cue" size="121" crc="7cbb3781" md5="9a6c8e014f8a9fef67f902cf44b0fc68" sha1="3792ef60138673cc001b53614360255bb366e496"/>
 	</game>
-	<game name="Arc the Lad Collection - The Making of Arc the Lad (USA)">
-		<category>Bonus Discs</category>
-		<description>Arc the Lad Collection - The Making of Arc the Lad (USA)</description>
-		<rom name="Arc the Lad Collection - The Making of Arc the Lad (USA).bin" size="623150640" crc="6b295ebc" md5="5e7c5e3736740101f90a135e4720d7f6" sha1="db6a2bce8ba46c65bbf013dcb574ed30fa5cc804"/>
-		<rom name="Arc the Lad Collection - The Making of Arc the Lad (USA).cue" size="122" crc="b7589f30" md5="6a6e8ef102a339afa2cf7fa9f86da57c" sha1="12d4c9a4bf0e6fb21f4e6efa0259b4b7a237a73b"/>
-	</game>
-	<game name="Arc the Lad II - Characters &amp; World CG Movie Collection (Japan)">
-		<category>Bonus Discs</category>
-		<description>Arc the Lad II - Characters &amp; World CG Movie Collection (Japan)</description>
-		<rom name="Arc the Lad II - Characters &amp; World CG Movie Collection (Japan).bin" size="135136512" crc="5bf4a302" md5="67f13021dd2ae10b62ff2da267d7575b" sha1="1b751f1f655f489a7ed9c0f1308d0bec43fec48c"/>
-		<rom name="Arc the Lad II - Characters &amp; World CG Movie Collection (Japan).cue" size="129" crc="bb8a0e0f" md5="eb08b53b7225f60c4aa5e9665fc00d20" sha1="5d4321baed0cb2e83ea3863e4b46be0657bee91f"/>
-	</game>
 	<game name="Arcade Hits - Crazy Climber (Japan)">
 		<category>Games</category>
 		<description>Arcade Hits - Crazy Climber (Japan)</description>
@@ -1346,12 +1328,6 @@
 		<description>Baby Felix Tennis (Europe) (En,Fr,De,Es,It,Nl)</description>
 		<rom name="Baby Felix Tennis (Europe) (En,Fr,De,Es,It,Nl).bin" size="152094432" crc="3ab7f7e9" md5="0d6ae1a9272bc978d2c2fe3af6e5056e" sha1="fb97aee090eabdd38961720607462a710b8efc37"/>
 		<rom name="Baby Felix Tennis (Europe) (En,Fr,De,Es,It,Nl).cue" size="112" crc="6f7e03a4" md5="91583a9e0100353e61dd7dfa505681e9" sha1="2df76d718f877f40a5c677568e1c4b91b54c04c5"/>
-	</game>
-	<game name="Baby Universe (Europe)">
-		<category>Multimedia</category>
-		<description>Baby Universe (Europe)</description>
-		<rom name="Baby Universe (Europe).bin" size="395041920" crc="a2585dd7" md5="dfc0bff9ba4fe84ff607357462aacd79" sha1="915ea469aec1421b97090346fc678321c345a6ef"/>
-		<rom name="Baby Universe (Europe).cue" size="88" crc="162741e9" md5="205fc1ccada005262e3f4a2693e2ddc1" sha1="4e435e20bbf5a66b5a4e7655a1450e99e21125e6"/>
 	</game>
 	<game name="Backstreet Billiards (USA)">
 		<category>Games</category>
@@ -2857,12 +2833,6 @@
 		<rom name="Carnage Heart (USA) (Track 3).bin" size="48046656" crc="b61487ab" md5="3c2c2f6636442fea063edebdbe7ca776" sha1="0fa4f790a1933cb33e74079b46d054b14035b93b"/>
 		<rom name="Carnage Heart (USA).cue" size="321" crc="11f1303d" md5="8fb363fc837227e3b3c217a5cab050c1" sha1="ad34f7f80dc66675e041616f2f050ada98846aed"/>
 	</game>
-	<game name="Carnage Heart (USA) (Mission Briefing)">
-		<category>Bonus Discs</category>
-		<description>Carnage Heart (USA) (Mission Briefing)</description>
-		<rom name="Carnage Heart (USA) (Mission Briefing).bin" size="621638304" crc="9ce906b2" md5="844e3f18c053dd46dc845b07ecab1645" sha1="509a320fb2537ef1707cd5f626d272c4fbb1d595"/>
-		<rom name="Carnage Heart (USA) (Mission Briefing).cue" size="104" crc="ea92a150" md5="39c1c47410fe24d6a69f8ffc9346713e" sha1="e8af44ad7461f83f8137a17ce54f8fa43af6ebdf"/>
-	</game>
 	<game name="Casper (USA)">
 		<category>Games</category>
 		<description>Casper (USA)</description>
@@ -4264,12 +4234,6 @@
 		<rom name="Detective Mouse (Europe) (En,Fr,De).bin" size="370741056" crc="03d403c0" md5="fab299a43ce907fe2f4709c2ea7a3e51" sha1="0a31f8ecefd637339d9e303d4799804a23269d00"/>
 		<rom name="Detective Mouse (Europe) (En,Fr,De).cue" size="101" crc="59cda9ea" md5="35869760f6b450c5892678fe3ca660a1" sha1="c64ae158c45dc8e934eac1cac52764f5d32f5005"/>
 	</game>
-	<game name="Deuce (USA) (Proto) (2000-07-24)">
-		<category>Preproduction</category>
-		<description>Deuce (USA) (Proto) (2000-07-24)</description>
-		<rom name="Deuce (USA) (Proto) (2000-07-24).bin" size="28336896" crc="db149c5e" md5="36a4101bf970d490bb548dba7e2f977f" sha1="e25c80c45e9443476fb4425c7753c96ac4737793"/>
-		<rom name="Deuce (USA) (Proto) (2000-07-24).cue" size="98" crc="49908abb" md5="e08123225eb9fd28a0b45eb6a8b1010e" sha1="be20c13e716d6413265e9026e73566d9d9c02b59"/>
-	</game>
 	<game name="Devil Dice (USA)">
 		<category>Games</category>
 		<description>Devil Dice (USA)</description>
@@ -4514,12 +4478,6 @@
 		<description>Disney's Lilo &amp; Stitch (USA)</description>
 		<rom name="Disney's Lilo &amp; Stitch (USA).bin" size="521203200" crc="eb26d2d7" md5="b773ddf42fced7bd88b57f7a6c1ed595" sha1="ccb77a407eb4da0ca19ede226f5d68da5888e6f9"/>
 		<rom name="Disney's Lilo &amp; Stitch (USA).cue" size="94" crc="c15a9ce1" md5="e86e64257888ab3c799bafd1819527d6" sha1="2fe0ec93d06b219a9e982d1ba4f12e2ad5877df3"/>
-	</game>
-	<game name="Disney's Lilo &amp; Stitch - Trouble in Paradise - PSX Model Viewer (Europe) (Beta) (2001-08-01)">
-		<category>Preproduction</category>
-		<description>Disney's Lilo &amp; Stitch - Trouble in Paradise - PSX Model Viewer (Europe) (Beta) (2001-08-01)</description>
-		<rom name="Disney's Lilo &amp; Stitch - Trouble in Paradise - PSX Model Viewer (Europe) (Beta) (2001-08-01).bin" size="74513712" crc="80563991" md5="c1c56bd34e2e6c430cd514d698125e3c" sha1="79cfff7a854b045e634f6d7d6bd6679d2bfe7216"/>
-		<rom name="Disney's Lilo &amp; Stitch - Trouble in Paradise - PSX Model Viewer (Europe) (Beta) (2001-08-01).cue" size="158" crc="2cf8c938" md5="c1da3cb7301204228deb9fa64e5fcb2b" sha1="49d3291f17dcdae7ed4ce6eb004fafbd4727fcd2"/>
 	</game>
 	<game name="Disney's Pooh's Party Game - In Search of the Treasure (USA)">
 		<category>Games</category>
@@ -5601,12 +5559,6 @@
 		<rom name="Fear Effect 2 - Retro Helix (USA) (Disc 4) (Rev 1).bin" size="715087968" crc="8d9b31eb" md5="7302dbf75f570466e1453b1337fd5a79" sha1="1665f4c71e1c399f5a6f4b9c33a979ee0cad8afd"/>
 		<rom name="Fear Effect 2 - Retro Helix (USA) (Disc 4) (Rev 1).cue" size="116" crc="066104d4" md5="ff4c195061fc3b53bda0dddf9c900b2c" sha1="6f44a3e7277682f46f9eae4d2c66a2d674781fb6"/>
 	</game>
-	<game name="Fear Factor (USA) (Beta) (1999-05-05)">
-		<category>Preproduction</category>
-		<description>Fear Factor (USA) (Beta) (1999-05-05)</description>
-		<rom name="Fear Factor (USA) (Beta) (1999-05-05).bin" size="233353680" crc="6984a5ef" md5="1e8c46117de4815e8f8772a70d75e9b6" sha1="579d125257c1ff1a47738e241e50bac569c350a5"/>
-		<rom name="Fear Factor (USA) (Beta) (1999-05-05).cue" size="103" crc="dc1b98c2" md5="65bb9f6625e100cfd6cf15c63e052536" sha1="cb8f8b7e7a8a8003f9efdeb187bf52af96fc7064"/>
-	</game>
 	<game name="Felony 11-79 (USA)">
 		<category>Games</category>
 		<description>Felony 11-79 (USA)</description>
@@ -6522,14 +6474,6 @@
 		<description>Gran Turismo 2 (USA) (Simulation Mode) (Rev 2)</description>
 		<rom name="Gran Turismo 2 (USA) (Simulation Mode) (Rev 2).bin" size="691850208" crc="a0c88c87" md5="e697a485b661a12fa6c327186c336a31" sha1="c4813703d2ad440ed36670c1ac2c1a66c9dc673d"/>
 		<rom name="Gran Turismo 2 (USA) (Simulation Mode) (Rev 2).cue" size="112" crc="49229d21" md5="a6f97066b96f6998dbab1844ea06a64c" sha1="ef4d8ea437c1993b9930f493c960d3e45f9018c0"/>
-	</game>
-	<game name="Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc)">
-		<category>Bonus Discs</category>
-		<description>Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc)</description>
-		<rom name="Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc) (Track 1).bin" size="451282944" crc="274e9102" md5="a550ed0833c7b54a50a4373f9e3cf6ed" sha1="c89a09033a94d850c06ec2bbaab89bfd0d5bdddc"/>
-		<rom name="Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc) (Track 2).bin" size="56480928" crc="0d9dca16" md5="29fea1d7509a006887411cbccf95149f" sha1="309d3514419e50ce356db2ad53df5e37b829f75e"/>
-		<rom name="Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc) (Track 3).bin" size="1401792" crc="780b1fc7" md5="54734d3fe6f75e0d6cf73fa0d3b63c83" sha1="d11089e8cd3f7d9fc4dfd1156e1a02f2f992897a"/>
-		<rom name="Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc).cue" size="525" crc="e3f0f92d" md5="04ea42ab561f12bef769f8a532a2cf0d" sha1="eb27e25f208a2ab621ae1be0cdb11f0de1541773"/>
 	</game>
 	<game name="Grand Slam (USA)">
 		<category>Games</category>
@@ -7951,13 +7895,6 @@
 		<rom name="Killer Loop (USA) (Track 13).bin" size="49646016" crc="1c6806ec" md5="f1ddf8d5d28841198d4cbbcfdc724a66" sha1="3a82ecc6ae543336d053bfcfddf5e3c4b63df365"/>
 		<rom name="Killer Loop (USA).cue" size="1438" crc="8fd8679d" md5="d9e95b7a40246f847e7206ec59c74f24" sha1="bb52e41b9dff2203e59b6e20b8e37a09f76fb2f0"/>
 	</game>
-	<game name="Killing Time (USA) (Proto) (1997-04-29)">
-		<category>Preproduction</category>
-		<description>Killing Time (USA) (Proto) (1997-04-29)</description>
-		<rom name="Killing Time (USA) (Proto) (1997-04-29) (Track 1).bin" size="637352016" crc="f07f6ce6" md5="c607aed9136db3c52b69c6f988f00ced" sha1="311fb3441d17e02385f5d4aef56274e49e0b5659"/>
-		<rom name="Killing Time (USA) (Proto) (1997-04-29) (Track 2).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
-		<rom name="Killing Time (USA) (Proto) (1997-04-29).cue" size="248" crc="09958d37" md5="27c606a9a3795e0556e7dbff59ad049e" sha1="565c6c4ea6598d0725cfae8f070b427e805c8314"/>
-	</game>
 	<game name="Killing Zone (USA)">
 		<category>Games</category>
 		<description>Killing Zone (USA)</description>
@@ -8704,14 +8641,6 @@
 		<rom name="Lunar - Silver Star Story Complete (USA) (Disc 2) (Track 3).bin" size="8041488" crc="c3d61aa5" md5="3667288bcc30037483b96a5beae33503" sha1="4aa2fa14f8cee60cccb308f2380e35d83bc49c7b"/>
 		<rom name="Lunar - Silver Star Story Complete (USA) (Disc 2).cue" size="411" crc="41115319" md5="5b5d90c68b820e6771a110448d2f291e" sha1="ec67b1f9c2dce33594173abce60a31caa5627f2a"/>
 	</game>
-	<game name="Lunar - Silver Star Story Complete (USA) (The Making of)">
-		<category>Bonus Discs</category>
-		<description>Lunar - Silver Star Story Complete (USA) (The Making of)</description>
-		<rom name="Lunar - Silver Star Story Complete (USA) (The Making of) (Track 1).bin" size="639014880" crc="009a4ddf" md5="f445db0f720689bbdd02a7806c60cc74" sha1="a96af060c2bc03ffddef224c0c8321e206af78bf"/>
-		<rom name="Lunar - Silver Star Story Complete (USA) (The Making of) (Track 2).bin" size="26570544" crc="242e16cb" md5="18dc93157e9c0973ea2cd5d037bdbc5c" sha1="733c9ae32570590e2dff34e483792b7325f16dd7"/>
-		<rom name="Lunar - Silver Star Story Complete (USA) (The Making of) (Track 3).bin" size="8041488" crc="c3d61aa5" md5="3667288bcc30037483b96a5beae33503" sha1="4aa2fa14f8cee60cccb308f2380e35d83bc49c7b"/>
-		<rom name="Lunar - Silver Star Story Complete (USA) (The Making of).cue" size="432" crc="d53d108d" md5="3f2cc47cbfab62317cb04c955d38c78f" sha1="4e50478097645bdc13f7c2682dc9ce8169525d08"/>
-	</game>
 	<game name="Lunar 2 - Eternal Blue Complete (USA) (Disc 1)">
 		<category>Games</category>
 		<description>Lunar 2 - Eternal Blue Complete (USA) (Disc 1)</description>
@@ -8729,12 +8658,6 @@
 		<description>Lunar 2 - Eternal Blue Complete (USA) (Disc 3)</description>
 		<rom name="Lunar 2 - Eternal Blue Complete (USA) (Disc 3).bin" size="751242912" crc="9d23a98a" md5="e65cd19907a91b2c631ccc34113e7b7a" sha1="1495d397734245dc7fb7adc7acc41b511c2541e9"/>
 		<rom name="Lunar 2 - Eternal Blue Complete (USA) (Disc 3).cue" size="112" crc="1c6d8c89" md5="4643ef2dc337885d6573a597517d482c" sha1="f84d07fa3d1a96f8c6bb956b8df68c3877b8e445"/>
-	</game>
-	<game name="Lunar 2 - Eternal Blue Complete (USA) (The Making of)">
-		<category>Bonus Discs</category>
-		<description>Lunar 2 - Eternal Blue Complete (USA) (The Making of)</description>
-		<rom name="Lunar 2 - Eternal Blue Complete (USA) (The Making of).bin" size="633640560" crc="c3b91f0e" md5="cb6e251ece1df600314d267795588b5c" sha1="3a552fecddbfd2cac8b0cb557391e769e7e6e51e"/>
-		<rom name="Lunar 2 - Eternal Blue Complete (USA) (The Making of).cue" size="119" crc="0b85742a" md5="b2780dfdcead4155807f7f8d387275fc" sha1="56c1501b2fb82867ebfffacb7dc9384a85120702"/>
 	</game>
 	<game name="M&amp;M's - Shell Shocked (USA)">
 		<category>Games</category>
@@ -8966,12 +8889,6 @@
 		<rom name="Madden NFL 2005 (USA).bin" size="473471712" crc="806d09c4" md5="e46bb1d34a1bd8e21e91b2a50f3c1e72" sha1="74a6e18d1f5e0a9b4799486c9165e0cbae1483c0"/>
 		<rom name="Madden NFL 2005 (USA).cue" size="87" crc="191ecf5e" md5="4c87b40e44021a01fb7b5f94c6b8bce9" sha1="6c1c2a7bc9a79bd7f8f50fbe772bfc0554d3c6ee"/>
 	</game>
-	<game name="Madden NFL 96 (USA) (Proto) (1995-10-25)">
-		<category>Preproduction</category>
-		<description>Madden NFL 96 (USA) (Proto) (1995-10-25)</description>
-		<rom name="Madden NFL 96 (USA) (Proto) (1995-10-25).bin" size="189646464" crc="30f57811" md5="b5d5f2bd4f1896595d56d81c18754a82" sha1="5f6689009bdd930b1b1641e1a6b505e1ab95a9b8"/>
-		<rom name="Madden NFL 96 (USA) (Proto) (1995-10-25).cue" size="106" crc="a997e722" md5="4e42b4ce052745b0ace53ce9f354a7cd" sha1="7097d8101c4ac623208a01a7887c3e8cab5cd97a"/>
-	</game>
 	<game name="Madden NFL 97 (USA)">
 		<category>Games</category>
 		<description>Madden NFL 97 (USA)</description>
@@ -9068,12 +8985,6 @@
 		<rom name="Magical Tetris Challenge (Europe) (Track 1).bin" size="319265184" crc="0c886cb7" md5="6203142615ef7cefa99a172d8d4e71b4" sha1="e6c13e1e052cc7884402011b8f145a6a93c686d7"/>
 		<rom name="Magical Tetris Challenge (Europe) (Track 2).bin" size="37396800" crc="7976083e" md5="2d7b5e8e94a91bf5423b2356f6a34863" sha1="d9f92af296360772e62caa4cb276de3fa74f5538"/>
 		<rom name="Magical Tetris Challenge (Europe).cue" size="236" crc="47c1f0e7" md5="4ab136e5bcdb30686d572832ff097c84" sha1="521ba86ac3e475254fd8df3c6c74ce705af8ee5c"/>
-	</game>
-	<game name="Maniac Moons (USA) (Proto) (1999-02-25)">
-		<category>Preproduction</category>
-		<description>Maniac Moons (USA) (Proto) (1999-02-25)</description>
-		<rom name="Maniac Moons (USA) (Proto) (1999-02-25).bin" size="34153392" crc="e1a913fa" md5="039e0601bd4dd8d8fb548c0b615961d3" sha1="3d419b8b48f07c80290220bbe1494a77ef8b6e11"/>
-		<rom name="Maniac Moons (USA) (Proto) (1999-02-25).cue" size="105" crc="ca22fe1c" md5="a5be985136b2f01fbf71564f1aa99b5e" sha1="5f94623c5b6902a5f8085e28d2770d9c1cbc7e83"/>
 	</game>
 	<game name="Marble Master (USA)">
 		<category>Games</category>
@@ -11511,12 +11422,6 @@
 		<rom name="Panzer Front (USA).bin" size="345722832" crc="fb2f2273" md5="3fed3787f3a49f721acd230fe9d2e874" sha1="b4716b9f9c0e9cc33ada37c04cdc79440346e73a"/>
 		<rom name="Panzer Front (USA).cue" size="84" crc="8a82a21e" md5="d9031c47c0e215cf5ca06e43a67ae823" sha1="eebfe3c2db6b2889f4240fd2bf65f69992691a2a"/>
 	</game>
-	<game name="Panzer Front bis. (Europe) (En,Fr,De) (Proto) (2002-01-20)">
-		<category>Preproduction</category>
-		<description>Panzer Front bis. (Europe) (En,Fr,De) (Proto) (2002-01-20)</description>
-		<rom name="Panzer Front bis. (Europe) (En,Fr,De) (Proto) (2002-01-20).bin" size="438236400" crc="528a9e71" md5="e07a7a7543bf12c4e1bcac51bc2ead49" sha1="43bca6fb6cef5042ac9bf8d5df8d71dddbfaff0e"/>
-		<rom name="Panzer Front bis. (Europe) (En,Fr,De) (Proto) (2002-01-20).cue" size="124" crc="9983d179" md5="b23ecd8cacf1c2c23270a69a6c097fbc" sha1="98cd79f82b60fda8901fa32d2763461f407756d5"/>
-	</game>
 	<game name="Panzer General (USA)">
 		<category>Games</category>
 		<description>Panzer General (USA)</description>
@@ -11658,12 +11563,6 @@
 		<description>Persona 2 - Eternal Punishment (USA)</description>
 		<rom name="Persona 2 - Eternal Punishment (USA).bin" size="724827600" crc="e390b937" md5="32e245a231f145587085f947f8634145" sha1="05bb29e1a491d331fd47b1930eb5e186202684cd"/>
 		<rom name="Persona 2 - Eternal Punishment (USA).cue" size="102" crc="9c9b4f60" md5="c47a14d3dcd4ca2c6378c3b15c30ea2d" sha1="d1a851045d089d906db6ab562575ca684ee3a602"/>
-	</game>
-	<game name="Persona 2 - Eternal Punishment (USA) (Bonus Disc)">
-		<category>Bonus Discs</category>
-		<description>Persona 2 - Eternal Punishment (USA) (Bonus Disc)</description>
-		<rom name="Persona 2 - Eternal Punishment (USA) (Bonus Disc).bin" size="315930048" crc="52cc7507" md5="89a093f301ed5e9f52cd7caaf6fc1ba0" sha1="6394671b85f87a7a44016675c02c4d442015cdcd"/>
-		<rom name="Persona 2 - Eternal Punishment (USA) (Bonus Disc).cue" size="115" crc="8eb8e149" md5="572efbd290fda4928f25e74aee20e940" sha1="f1bb3d5f3b72a0b932d5777aa69b7ece9ef00160"/>
 	</game>
 	<game name="Pet in TV (Europe)">
 		<category>Games</category>
@@ -12355,14 +12254,6 @@
 		<rom name="Project Overkill (USA) (Track 20).bin" size="10939152" crc="00e08761" md5="c3009f8890468ba87af2997c6694d114" sha1="e7f833ba3528e74037a980ab5c15702d7ae902d6"/>
 		<rom name="Project Overkill (USA) (Track 21).bin" size="11042640" crc="484521e2" md5="57f27ef3ab3750984c3904755b1607da" sha1="40b74a98a9129e3fce19ae319048c5860bc9970b"/>
 		<rom name="Project Overkill (USA).cue" size="2439" crc="9e4f1fe5" md5="cf5d2069ff426c19c26d8166e6eef69f" sha1="d6d3fd8947f3b8c4950e079cd65a13f9b2e0503e"/>
-	</game>
-	<game name="Psalm 69 (Japan) (Beta) (1996-05-14)">
-		<category>Preproduction</category>
-		<description>Psalm 69 (Japan) (Beta) (1996-05-14)</description>
-		<rom name="Psalm 69 (Japan) (Beta) (1996-05-14) (Track 1).bin" size="27092688" crc="5bfdc3b0" md5="bfafa64d06e631a06156ea6ac3bf69ec" sha1="8f59f2dee77d946f711ccf28e191820d0c17f452"/>
-		<rom name="Psalm 69 (Japan) (Beta) (1996-05-14) (Track 2).bin" size="8469552" crc="cb52da0b" md5="176852f5d2ac1121a9e231b5d621fca9" sha1="72e25a1970c5638e6ee5228541c31562bfd372d8"/>
-		<rom name="Psalm 69 (Japan) (Beta) (1996-05-14) (Track 3).bin" size="40045152" crc="209896a4" md5="1264fac3a9a7ed87df2fb9562bdcf714" sha1="37d11c227eb6ffcd28ecb94414689d9ecb3e99bc"/>
-		<rom name="Psalm 69 (Japan) (Beta) (1996-05-14).cue" size="372" crc="58419886" md5="78358b625d55e309f9f1b1792c503cc2" sha1="29cddf7a7698582e0466aee3f11b1bbb4cc674ce"/>
 	</game>
 	<game name="Psybadek (USA)">
 		<category>Games</category>
@@ -13259,20 +13150,6 @@
 		<rom name="Ridge Racer (USA) (Track 14).bin" size="33059712" crc="9e134287" md5="17698755215e33d36b38090eaf539bfd" sha1="83f97e7f3fa37469d7b1cfbd7c0236fb3509573a"/>
 		<rom name="Ridge Racer (USA).cue" size="1550" crc="8b03fa5d" md5="e7e3af95531aaf9f0bd8ad59c81fb56e" sha1="dfad4070373f90bc20200ddc652d804e93c6cc69"/>
 	</game>
-	<game name="Ridge Racer Bonus Turbo Mode Disc (USA)">
-		<category>Bonus Discs</category>
-		<description>Ridge Racer Bonus Turbo Mode Disc (USA)</description>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 1).bin" size="301166544" crc="03703673" md5="f72266a13a567e144f425e4b7f026149" sha1="36c87984a5c7c177cfd42dce6f2939a0e9d4d62d"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 2).bin" size="56422128" crc="fd56a84c" md5="c779f4dad2333404aa51d7b131187ce9" sha1="be4df3d1940b8f09d212609b886c05fa751eeecf"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 3).bin" size="53277504" crc="ba385f1a" md5="a8a1f0e9a15fa3b893183a09d14c66ec" sha1="edec68b0c23fe020c9d4989e455acb6518a4f5fb"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 4).bin" size="21525504" crc="fbd611aa" md5="96705fa23437f1890072c899fd737f36" sha1="94a5f41c78418ab064b482d6944d300a91292223"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 5).bin" size="13632192" crc="abd4db7f" md5="057f6fb4fba95d4000a19cf46b288f73" sha1="d311a82a77c362549dcc7da0f471ba32da26b17e"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 6).bin" size="2067408" crc="3d2d55cb" md5="0181f9b11744c19c9e3142b3a5124855" sha1="7f0f25c793b776c9500dfa8a23a0b3c710720e4c"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 7).bin" size="10941504" crc="7d2ca723" md5="42530a9bbbb0a2c6841e874d9085234d" sha1="04b67281d33d700c6ccc433201e38cf284932f9e"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 8).bin" size="17451840" crc="031b936e" md5="938597d40f048d5f86fabf7b7cfcd61b" sha1="915e3651531904ffd77d510b921d7dfe0a5e62cd"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA) (Track 9).bin" size="26612880" crc="386a39a4" md5="70e3cdb2c0308d0d4ee8a9c27f3436af" sha1="c68037b5d11ad6c7eb79ceab7342ff4877192d9f"/>
-		<rom name="Ridge Racer Bonus Turbo Mode Disc (USA).cue" size="1179" crc="e8048cc3" md5="fa28f32724bee81a72afae6e70a9808c" sha1="1ca48678081c8685695e8507fba1187266b427d5"/>
-	</game>
 	<game name="Ridge Racer Revolution (USA)">
 		<category>Games</category>
 		<description>Ridge Racer Revolution (USA)</description>
@@ -13993,12 +13870,6 @@
 		<description>Scooby-Doo and the Cyber Chase (USA)</description>
 		<rom name="Scooby-Doo and the Cyber Chase (USA).bin" size="188632752" crc="e68b25c0" md5="1a36778dcf170df745aaf82d665c0ba4" sha1="0a03c2cfaae88ee60541af22e2fda45982c288d4"/>
 		<rom name="Scooby-Doo and the Cyber Chase (USA).cue" size="102" crc="593426bf" md5="1247dc9ab3a33a4d0a4109d5274f6e6f" sha1="2943366d8c6f7844be07204f60918496e6946196"/>
-	</game>
-	<game name="Scooby-Doo! Night of 100 Frights (USA) (Proto) (2000-10-26)">
-		<category>Preproduction</category>
-		<description>Scooby-Doo! Night of 100 Frights (USA) (Proto) (2000-10-26)</description>
-		<rom name="Scooby-Doo! Night of 100 Frights (USA) (Proto) (2000-10-26).bin" size="669993072" crc="6862d505" md5="2144ba341f3ce6a3c3d7e9b519a9bec1" sha1="844dccf93fecce20ce6deda55c689cd3fcaca2d4"/>
-		<rom name="Scooby-Doo! Night of 100 Frights (USA) (Proto) (2000-10-26).cue" size="125" crc="7662f7e9" md5="0c1e8114ea37195da1182e726b9069ba" sha1="0df5288b7cbbc9f706977982fd88a4498b7d8e16"/>
 	</game>
 	<game name="Scrabble (USA)">
 		<category>Games</category>
@@ -15770,12 +15641,6 @@
 		<rom name="Superbike Masters (Europe) (Track 12).bin" size="32302368" crc="e6ce5ea3" md5="afadcd27514f92953a2a00448cab31a4" sha1="461cd8a7f61a6b36745fd827ffe8696dd75ad742"/>
 		<rom name="Superbike Masters (Europe).cue" size="1434" crc="be4cdceb" md5="35f5e71dfb0e660d72b42277c16644d4" sha1="75b479d32a9b1d62fa35153ee36de2b4b4df862e"/>
 	</game>
-	<game name="Superman (USA) (Proto) (1999-10-29)">
-		<category>Preproduction</category>
-		<description>Superman (USA) (Proto) (1999-10-29)</description>
-		<rom name="Superman (USA) (Proto) (1999-10-29).bin" size="115958304" crc="4a4d0ab4" md5="6f57ca148d7d8fc23465eb24873f8581" sha1="9ac76ce6d590eaf25686d39bc557c2c4d728908f"/>
-		<rom name="Superman (USA) (Proto) (1999-10-29).cue" size="101" crc="b1dfb296" md5="8a6630960d2559a5de319fa30a4209a6" sha1="be116945c17eaa70754ecf623ac9a5dd1f3d53f9"/>
-	</game>
 	<game name="Superstar Dance Club - 1 Hits!!! (USA)">
 		<category>Games</category>
 		<description>Superstar Dance Club - 1 Hits!!! (USA)</description>
@@ -16535,24 +16400,6 @@
 		<rom name="Three Stooges, The (USA) (Track 12).bin" size="1462944" crc="30b1b13b" md5="1d7fa41bf945065ecd56d96dd8de03ee" sha1="7621d876d0d9f847cf791d2db3c7dbbfd4579cb6"/>
 		<rom name="Three Stooges, The (USA) (Track 13).bin" size="69019440" crc="25a554e9" md5="ea2bb0c47fd411be711b50dd93220e18" sha1="9aa5176ff2609ff16adf747e81e1b33d3d5e8c3f"/>
 		<rom name="Three Stooges, The (USA).cue" size="1529" crc="1cbb208c" md5="8700777355f09c239ac36c55e9f944ce" sha1="be7bb517e3ef02b9ab6cc2a604210b8d83604fa4"/>
-	</game>
-	<game name="Thrill Kill (USA) (Proto) (1998-08-10)">
-		<category>Preproduction</category>
-		<description>Thrill Kill (USA) (Proto) (1998-08-10)</description>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 01).bin" size="211433040" crc="345accb9" md5="9f23ca2d291a31d7a71b17699bb6fa24" sha1="ba46a36b5728d89a5aae5fe220066f90feed2200"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 02).bin" size="24385536" crc="3ece9418" md5="5895edbaa0df3929b9114174fdfb3ee7" sha1="6aead597e91e6c0bae4ce6e5e5d0884ec7d74ac3"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 03).bin" size="26429424" crc="7357045a" md5="451479d9ae7927f0d085e0799b6212e4" sha1="14c73c6c7258f722dccf5c5a9419eaa155d119b3"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 04).bin" size="19429872" crc="2241b4d0" md5="0f50b16ed406e3731887e9f2c7bdb329" sha1="85ff7fe5952e146cd086de35997a21fc18f9a717"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 05).bin" size="25486272" crc="7825198f" md5="702c97477bd4a0e5f156c1b83e9ae596" sha1="3a53e9be46e64d692c17ef0c93c9d94d6da9fc4e"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 06).bin" size="28299264" crc="a2e91702" md5="a0db308fb32feb6c417e1ef8a9cc0146" sha1="0f8dac5a377f8489740cd85ab282dc3441c8b9df"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 07).bin" size="28910784" crc="6f6a30f4" md5="eb829402533b1f50311117d8889e05c4" sha1="3c3129fae51c6f4c2f7ce6b7114ac7ab251fbac4"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 08).bin" size="31283952" crc="bdaed8d1" md5="73c0adb6a5a0c89a837c271973dccdbd" sha1="b37341a262d7ee04c179758545d2a6ed754dcbb8"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 09).bin" size="27266736" crc="ed81380f" md5="9bea86935fe3a3752a7a2455cfc8cfa6" sha1="73b4def9a92534cc59fe145974da5d1d3bed9f34"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 10).bin" size="22995504" crc="b4fd3bbf" md5="f81e422dda5b01898de513349d1f48e7" sha1="ecd41b8d3ea95c06f5f644fa6d74dfb1219b4961"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 11).bin" size="32262384" crc="c51af0fb" md5="63865739b6b7764fa1062dda47729f2d" sha1="9f8330ae141cfdbaad4710adea064f044a8c9851"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 12).bin" size="7907424" crc="781c38bd" md5="65cedeaf9fe889a1ba5824b24db2d2f5" sha1="831627def85da09a30076e374f952209fb75a286"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10) (Track 13).bin" size="45654672" crc="a82703ba" md5="b1bc6d6c571666276e6ee0c4af549778" sha1="fbef078828aaec65d7a12378e4ad9ad3acd1102b"/>
-		<rom name="Thrill Kill (USA) (Proto) (1998-08-10).cue" size="1458" crc="8e05f1bb" md5="b6244e72eda7a23d3ed921c73736a14b" sha1="b7d3b67330bed966e075cb9c50bde79cfb5509fc"/>
 	</game>
 	<game name="Thunder Force V - Perfect System (USA)">
 		<category>Games</category>
@@ -18039,12 +17886,6 @@
 		<description>Virtual Pool 3 (USA)</description>
 		<rom name="Virtual Pool 3 (USA).bin" size="173198928" crc="36a0ed36" md5="fab98a012825406c18d958d207c00845" sha1="d0d3be11a418717d721ae7b200af61b32fc465db"/>
 		<rom name="Virtual Pool 3 (USA).cue" size="86" crc="ca28033e" md5="2184e01d399335c0f829b701816fad1c" sha1="404dcf711d178da160219a1eebf241d68734b71b"/>
-	</game>
-	<game name="Virtuoso (Japan) (Beta) (1996-02-16)">
-		<category>Preproduction</category>
-		<description>Virtuoso (Japan) (Beta) (1996-02-16)</description>
-		<rom name="Virtuoso (Japan) (Beta) (1996-02-16).bin" size="4287696" crc="8163083d" md5="21010bd957b88b68452e9faacd555099" sha1="0c032fbe9d0bf2d719b87e1c35d28cdc7cffdead"/>
-		<rom name="Virtuoso (Japan) (Beta) (1996-02-16).cue" size="102" crc="e8ab16e6" md5="dbd39c2fcc2dd16f0540179d591965d2" sha1="7fe71f5d9cc3605bd9b1cddabcb4c78913a632e4"/>
 	</game>
 	<game name="Virus - It Is Aware (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
