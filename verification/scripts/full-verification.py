@@ -1088,7 +1088,7 @@ def generate_collection_report(dat_file: Path, txt_file: Path | None = None) -> 
     
     print_title("COLLECTION COMPLETENESS CHECK", "✅")
     print("  Every game should have 4 images: 2dbox, 3dbox, disc, and psp-icon0")
-    print("  (Images can be in normal, -lq, -missing, or -bespoke folders)")
+    print("  (Images can be in normal, -lq, or -missing folders for library assets)")
     print()
     
     if not missing_images and not missing_only_games:
@@ -1134,7 +1134,7 @@ def generate_collection_report(dat_file: Path, txt_file: Path | None = None) -> 
     if has_duplicates:
         print_title("DUPLICATE FILES ACROSS FOLDERS", "⚠️")
         print("  Files should only exist in one folder per image type:")
-        print("  (normal/-lq/-missing for library assets, generated/bespoke for psp-icon0)")
+        print("  (normal/-lq/-missing for library assets)")
         print()
 
         for category in ["2dbox", "3dbox", "disc", "psp-icon0"]:
