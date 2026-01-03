@@ -6,6 +6,12 @@ This project aims to provide a clean, consistent collection of PlayStation media
 
 <br/>
 
+Currently missing HQ Standardised imaages against perfect Redump Retool'd DAT:
+  🎨 HQ 2D Box Covers: `████████████████████████████░░ 1676/1793 (93.5%)`
+  📦 HQ 3D Boxes: `████████████████████████████░░ 1676/1793 (93.5%)`
+  💿 HQ Disc Artwork Scans: `█████████████████████████████░ 1735/1793 (96.8%)`
+
+
 <p align="center">
   <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/library/2dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
   &nbsp;&nbsp;&nbsp;
