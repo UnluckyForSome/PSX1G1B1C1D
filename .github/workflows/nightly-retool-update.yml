@@ -1,0 +1,66 @@
+name: Nightly Retool DAT Update
+
+on:
+  schedule:
+    # Run at midnight UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-dat-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch full history
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y git
+
+    - name: Clone latest Retool
+      run: |
+        # Remove existing retool directory if it exists
+        rm -rf tooling/retool
+        # Clone the latest version from GitHub
+        git clone https://github.com/unexpectedpanda/retool.git tooling/retool
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install alive-progress darkdetect lxml psutil pyside6 strictyaml validators requests
+
+    - name: Run Retool DAT download and filter
+      run: |
+        cd tooling
+        python download-and-filter-redump-dat.py
+
+    - name: Check for changes
+      id: check-changes
+      run: |
+        if git diff --quiet verification/; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.changed == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        git add verification/
+        git add tooling/retool/config/ 2>/dev/null || true
+        
+        git commit -m "Update Redump DAT file and Retool config [automated nightly update]" || exit 0
+        git push
+
