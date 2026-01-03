@@ -1414,25 +1414,8 @@ def count_hq_images(category: str, collection_names: set[str]) -> int:
     return hq_count
 
 
-def create_progress_bar(current: int, total: int, width: int = 30) -> str:
-    """Create a styled progress bar."""
-    if total == 0:
-        percentage = 0
-    else:
-        percentage = (current / total) * 100
-    
-    filled = int((current / total) * width) if total > 0 else 0
-    empty = width - filled
-    
-    # Use different characters for filled portion
-    filled_bar = "█" * filled
-    empty_bar = "░" * empty
-    
-    return f"{filled_bar}{empty_bar} {current}/{total} ({percentage:.1f}%)"
-
-
 def update_readme_progress(dat_file: Path, collection_names: set[str]) -> bool:
-    """Update README.md with progress bars for HQ images."""
+    """Update README.md with progress bar images for HQ images."""
     try:
         # Count total games from DAT
         dat_names = parse_dat_file(dat_file)
@@ -1443,6 +1426,11 @@ def update_readme_progress(dat_file: Path, collection_names: set[str]) -> bool:
         hq_3dbox = count_hq_images("3dbox", collection_names)
         hq_disc = count_hq_images("disc", collection_names)
         
+        # Calculate percentages
+        percentage_2d = int((hq_2dbox / total_games) * 100) if total_games > 0 else 0
+        percentage_3d = int((hq_3dbox / total_games) * 100) if total_games > 0 else 0
+        percentage_disc = int((hq_disc / total_games) * 100) if total_games > 0 else 0
+        
         # Read current README
         if not README_MD_PATH.exists():
             print(f"  ⚠️  README.md not found: {README_MD_PATH}", file=sys.stderr)
@@ -1451,30 +1439,31 @@ def update_readme_progress(dat_file: Path, collection_names: set[str]) -> bool:
         with open(README_MD_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
         
-        # Create progress bars
-        progress_2dbox = create_progress_bar(hq_2dbox, total_games)
-        progress_3dbox = create_progress_bar(hq_3dbox, total_games)
-        progress_disc = create_progress_bar(hq_disc, total_games)
-        
-        # Replace the progress section
+        # Replace progress bar URLs
         import re
-        # Match the section from "Currently missing" through the last "PROGRESS BAR HERE"
-        # Pattern matches across multiple lines
-        pattern = r'Currently missing HQ Standardised imaages against perfect Redump Retool\'d DAT:\s*\n\s*HQ 2D Box Covers PROGRESS BAR HERE\s*\n\s*HQ 3D Boxes PROGRESS BAR HERE\s*\n\s*HQ Disc Artwork Scans PROGRESS BAR HERE'
+        # Match and replace 2D progress bar (flexible whitespace)
+        pattern_2d = r'<img src="https://progress-bar\.xyz/\d+/\?title=2D&style=for-the-badge&width=100"\s*/>'
+        replacement_2d = f'<img src="https://progress-bar.xyz/{percentage_2d}/?title=2D&style=for-the-badge&width=100" />'
+        readme_content = re.sub(pattern_2d, replacement_2d, readme_content)
         
-        replacement = f"""Currently missing HQ Standardised imaages against perfect Redump Retool'd DAT:
-  🎨 HQ 2D Box Covers: `{progress_2dbox}`
-  📦 HQ 3D Boxes: `{progress_3dbox}`
-  💿 HQ Disc Artwork Scans: `{progress_disc}`"""
+        # Match and replace 3D progress bar (flexible whitespace)
+        pattern_3d = r'<img src="https://progress-bar\.xyz/\d+/\?title=3D&style=for-the-badge&width=100"\s*/>'
+        replacement_3d = f'<img src="https://progress-bar.xyz/{percentage_3d}/?title=3D&style=for-the-badge&width=100" />'
+        readme_content = re.sub(pattern_3d, replacement_3d, readme_content)
         
-        # Use multiline regex
-        new_content = re.sub(pattern, replacement, readme_content, flags=re.MULTILINE)
+        # Match and replace Disc progress bar (flexible whitespace)
+        pattern_disc = r'<img src="https://progress-bar\.xyz/\d+/\?title=Disc&style=for-the-badge&width=100"\s*/>'
+        replacement_disc = f'<img src="https://progress-bar.xyz/{percentage_disc}/?title=Disc&style=for-the-badge&width=100" />'
+        readme_content = re.sub(pattern_disc, replacement_disc, readme_content)
         
         # Write updated README
         with open(README_MD_PATH, 'w', encoding='utf-8') as f:
-            f.write(new_content)
+            f.write(readme_content)
         
         print(f"  ✅ Progress bars updated in README.md")
+        print(f"     2D Box: {percentage_2d}% ({hq_2dbox}/{total_games})")
+        print(f"     3D Box: {percentage_3d}% ({hq_3dbox}/{total_games})")
+        print(f"     Disc: {percentage_disc}% ({hq_disc}/{total_games})")
         return True
         
     except Exception as e:
