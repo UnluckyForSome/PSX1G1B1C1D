@@ -33,6 +33,14 @@ jobs:
         # Clone the latest version from GitHub
         git clone https://github.com/unexpectedpanda/retool.git tooling/retool
 
+    - name: Copy custom user-config.yaml
+      run: |
+        # Ensure config directory exists
+        mkdir -p tooling/retool/config
+        # Copy custom user-config.yaml to Retool config directory
+        cp verification/user-config.yaml tooling/retool/config/user-config.yaml
+        echo "✓ Copied custom user-config.yaml to Retool config directory"
+
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip

@@ -202,13 +202,13 @@ def run_retool(input_dat: Path, retool_dir: Path, output_dir: Path) -> Path | No
     print(f"\nRunning Retool to filter .dat file...")
     print(f"  Input: {input_dat}")
     print(f"  Flags: {' '.join(RETOOL_FLAGS)}")
-    print(f"  Exclude: {' '.join(RETOOL_EXCLUDE)}")
+    print(f"  Exclude: {''.join(RETOOL_EXCLUDE)}")
     
     cmd = [
         sys.executable,
         str(retool_script),
         str(input_dat),
-    ] + RETOOL_FLAGS + ["--exclude"] + RETOOL_EXCLUDE + ["--output", str(output_dir)]
+    ] + RETOOL_FLAGS + ["--exclude", "".join(RETOOL_EXCLUDE)] + ["--output", str(output_dir)]
     
     try:
         # Automatically answer "y" to any prompts (e.g., downloading missing config files)
