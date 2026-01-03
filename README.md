@@ -3,8 +3,12 @@
   <img src="https://progress-bar.xyz/93/?title=3D&style=for-the-badge&width=100" />
   <img src="https://progress-bar.xyz/96/?title=Disc&style=for-the-badge&width=100" />
   <br/>
-  <sub><i>Live progress of HQ assets against latest filtered Redump .DAT.</i></sub>
+  <sub><i>
+    Live progress of HQ assets against latest filtered Redump .DAT.<br>
+    <a href="COMPLETION.md">Full Report</a>
+  </i></sub>
 </p>
+
 
 ### 🎮 PSX1G1B1C1D
 **PSX1G1B1C1D** stands for **PlayStation — 1 Game, 1 Box, 1 Cover, 1 Disc**.
@@ -30,9 +34,9 @@ This project aims to provide a clean, consistent collection of PlayStation media
 
 ### 🧩 Why?
 
-Having a fully consistent collection means we can programmatically create beautiful **composite preview images** for use in emulators and game libraries.
+Image files assigned to the correct Redump names allow for perfect automation in a variety of projects - Having a fully consistent images mean we can programmatically create cool **composite preview images** for use in emulators and game libraries. 
 
-For example — **PSP / PS Vita PIC0.png eBOOT artwork**:
+For example — **PSP PIC0.png eBOOT artwork**:
 
 <p align="center">
   <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/psp-pic0/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="50%" />
@@ -61,6 +65,16 @@ And **consistant PSP ICON0 images** in the same style as the official ones:
 
 #### 🤖 Programmatic
 - 🧩 Assets designed to be reusable in automated composites and front-ends
+
+---
+
+### 🙏 Thanks
+
+Many thanks to community contributors whose work and passion inspired this project:
+
+- **[WallyWonka](https://forums.launchbox-app.com/profile/79560-wallywonka/)** — for their excellent and consistent PlayStation asset collections and Photoshop templates!
+
+- **[Lucid1](https://www.reddit.com/user/lusid1/)** — for the inspiring PSP **ICON0.png** project and collection, which I used and added to!
 
 ---
 
