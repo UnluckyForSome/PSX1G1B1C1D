@@ -45,7 +45,8 @@ jobs:
     - name: Check for changes
       id: check-changes
       run: |
-        if git diff --quiet verification/; then
+        # Check for both modified tracked files and new untracked files
+        if git diff --quiet verification/ && [ -z "$(git ls-files --others --exclude-standard verification/)" ]; then
           echo "changed=false" >> $GITHUB_OUTPUT
         else
           echo "changed=true" >> $GITHUB_OUTPUT
