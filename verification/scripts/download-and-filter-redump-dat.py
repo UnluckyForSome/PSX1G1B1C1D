@@ -246,6 +246,33 @@ def run_retool(input_dat: Path, retool_dir: Path, output_dir: Path) -> Path | No
         return None
 
 
+def cleanup_old_files(directory: Path, pattern: str, keep_count: int = 7) -> int:
+    """
+    Keep only the most recent files matching the pattern, delete older ones.
+    Returns the number of files deleted.
+    """
+    if not directory.exists():
+        return 0
+    
+    files = list(directory.glob(pattern))
+    if len(files) <= keep_count:
+        return 0
+    
+    # Sort by modification time (newest first)
+    files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    
+    # Delete the oldest files (keep only the most recent keep_count)
+    deleted_count = 0
+    for file_to_delete in files[keep_count:]:
+        try:
+            file_to_delete.unlink()
+            deleted_count += 1
+        except Exception as e:
+            print(f"  ⚠️  Warning: Could not delete {file_to_delete.name}: {e}")
+    
+    return deleted_count
+
+
 def main():
     """Main entry point."""
     print("=" * 70)
@@ -313,7 +340,24 @@ def main():
             except Exception as e:
                 print(f"  ⚠️  Warning: Could not move {report_file.name}: {e}")
     
-    # Step 8: Clean up intermediate files
+    # Step 8: Clean up old files (keep only last 7)
+    print("\nCleaning up old files (keeping only last 7)...")
+    
+    # Clean up old .dat files
+    deleted_dats = cleanup_old_files(verification_dir, "*.dat", keep_count=7)
+    if deleted_dats > 0:
+        print(f"  ✓ Deleted {deleted_dats} old .dat file(s)")
+    else:
+        print(f"  ✓ No old .dat files to delete (keeping {len(list(verification_dir.glob('*.dat')))} files)")
+    
+    # Clean up old .txt report files
+    deleted_reports = cleanup_old_files(reports_dir, "*.txt", keep_count=7)
+    if deleted_reports > 0:
+        print(f"  ✓ Deleted {deleted_reports} old report file(s)")
+    else:
+        print(f"  ✓ No old report files to delete (keeping {len(list(reports_dir.glob('*.txt')))} files)")
+    
+    # Step 9: Clean up intermediate files
     print("\nCleaning up intermediate files...")
     
     # Delete the extracted Redump .dat file (we only keep the filtered one)
