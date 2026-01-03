@@ -38,7 +38,7 @@ jobs:
         # Ensure config directory exists
         mkdir -p tooling/retool/config
         # Copy custom user-config.yaml to Retool config directory
-        cp verification/user-config.yaml tooling/retool/config/user-config.yaml
+        cp verification/configs/user-config.yaml tooling/retool/config/user-config.yaml
         echo "✓ Copied custom user-config.yaml to Retool config directory"
 
     - name: Install Python dependencies
@@ -48,7 +48,7 @@ jobs:
 
     - name: Run Retool DAT download and filter
       run: |
-        python verification/download-and-filter-redump-dat.py
+        python verification/scripts/download-and-filter-redump-dat.py
 
     - name: Check for changes
       id: check-changes

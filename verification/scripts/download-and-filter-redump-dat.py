@@ -19,7 +19,7 @@ import sys
 # Sony - PlayStation (2025-12-23 15-09-55) (Retool 2025-12-30 19-24-02) (1,815) (-n) [-aABbcdefkmpuv]
 # The (-n) in the filename indicates local names flag
 # The [-aABbcdefkmpuv] are exclude filters
-RETOOL_FLAGS = ["-n", "--report"]  # Use local names and output report
+RETOOL_FLAGS = ["-n", "-l", "--report"]  # Use local names, apply language order, and output report
 RETOOL_EXCLUDE = ["a", "A", "B", "b", "c", "d", "e", "f", "k", "m", "p", "u", "v"]
 
 # Retool dependencies
@@ -148,7 +148,7 @@ def download_redump_psx_dat(output_dir: Path = None) -> Path | None:
     """Download the latest Redump PlayStation 1 .dat file (may be .zip)."""
     if output_dir is None:
         script_dir = Path(__file__).parent
-        output_dir = script_dir  # Script is now in verification/, so use script_dir directly
+        output_dir = script_dir.parent / "dat"  # Script is in verification/scripts/, so dat files go in verification/dat/
     
     output_dir.mkdir(parents=True, exist_ok=True)
     dat_url = "http://redump.org/datfile/psx/"
@@ -254,8 +254,9 @@ def main():
     print()
     
     script_dir = Path(__file__).parent
-    verification_dir = script_dir  # Script is now in verification/, so use script_dir directly
-    retool_dir = script_dir.parent / "tooling" / "retool"
+    verification_dir = script_dir.parent / "dat"  # Script is in verification/scripts/, so dat files go in verification/dat/
+    reports_dir = script_dir.parent / "reports"  # Report .txt files go in verification/reports/
+    retool_dir = script_dir.parent.parent / "tooling" / "retool"  # Go up to workspace root, then to tooling/retool
     
     # Step 1: Install dependencies
     if not install_retool_dependencies():
@@ -297,7 +298,22 @@ def main():
         print("\n✗ Retool processing failed!")
         sys.exit(1)
     
-    # Step 7: Clean up intermediate files
+    # Step 7: Move report files to reports directory
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    report_files = list(verification_dir.glob("*.txt"))
+    moved_reports = []
+    if report_files:
+        print("\nMoving report files to reports directory...")
+        for report_file in report_files:
+            try:
+                dest_file = reports_dir / report_file.name
+                report_file.rename(dest_file)
+                moved_reports.append(dest_file)
+                print(f"  ✓ Moved: {report_file.name}")
+            except Exception as e:
+                print(f"  ⚠️  Warning: Could not move {report_file.name}: {e}")
+    
+    # Step 8: Clean up intermediate files
     print("\nCleaning up intermediate files...")
     
     # Delete the extracted Redump .dat file (we only keep the filtered one)
@@ -318,6 +334,8 @@ def main():
     print("\n" + "=" * 70)
     print("✓ All operations completed successfully!")
     print(f"  Final filtered .dat: {output_dat}")
+    if moved_reports:
+        print(f"  Report files moved to: {reports_dir}")
     print("=" * 70)
 
 

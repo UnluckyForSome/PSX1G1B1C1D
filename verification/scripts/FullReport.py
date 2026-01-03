@@ -21,10 +21,10 @@ except ImportError:
 
 # Configuration
 SCRIPT_DIR = Path(__file__).parent
-LIBRARY_DIR = SCRIPT_DIR.parent / "library"
-COMPOSITES_DIR = SCRIPT_DIR.parent / "composites"
-EXTRAS_DIR = SCRIPT_DIR.parent / "extras"
-DAT_DIR = SCRIPT_DIR
+LIBRARY_DIR = SCRIPT_DIR.parent.parent / "library"  # Script is in verification/scripts/, go up to workspace root
+COMPOSITES_DIR = SCRIPT_DIR.parent.parent / "composites"
+EXTRAS_DIR = SCRIPT_DIR.parent.parent / "extras"
+DAT_DIR = SCRIPT_DIR.parent / "dat"  # .dat files are in verification/dat/
 
 # Directories to scan
 COLLECTION_DIRS = {
