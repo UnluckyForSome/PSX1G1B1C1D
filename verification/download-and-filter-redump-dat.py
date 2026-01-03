@@ -19,7 +19,7 @@ import sys
 # Sony - PlayStation (2025-12-23 15-09-55) (Retool 2025-12-30 19-24-02) (1,815) (-n) [-aABbcdefkmpuv]
 # The (-n) in the filename indicates local names flag
 # The [-aABbcdefkmpuv] are exclude filters
-RETOOL_FLAGS = ["-n"]  # Use local names
+RETOOL_FLAGS = ["-n", "--report"]  # Use local names and output report
 RETOOL_EXCLUDE = ["a", "A", "B", "b", "c", "d", "e", "f", "k", "m", "p", "u", "v"]
 
 # Retool dependencies
