@@ -40,8 +40,7 @@ jobs:
 
     - name: Run Retool DAT download and filter
       run: |
-        cd tooling
-        python download-and-filter-redump-dat.py
+        python tooling/download-and-filter-redump-dat.py
 
     - name: Check for changes
       id: check-changes
