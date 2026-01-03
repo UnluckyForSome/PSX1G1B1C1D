@@ -34,9 +34,9 @@ This project aims to provide a clean, consistent collection of PlayStation media
 
 ### 🧩 Why?
 
-Having a fully consistent collection means we can programmatically create beautiful **composite preview images** for use in emulators and game libraries.
+Having a fully consistent collection means we can programmatically create cool **composite preview images** for use in emulators and game libraries.
 
-For example — **PSP / PS Vita PIC0.png eBOOT artwork**:
+For example — **PSP PIC0.png eBOOT artwork**:
 
 <p align="center">
   <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/composites/psp-pic0/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="50%" />
