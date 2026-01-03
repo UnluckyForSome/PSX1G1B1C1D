@@ -3,8 +3,12 @@
   <img src="https://progress-bar.xyz/93/?title=3D&style=for-the-badge&width=100" />
   <img src="https://progress-bar.xyz/96/?title=Disc&style=for-the-badge&width=100" />
   <br/>
-  <sub><i>Live progress of HQ assets against latest filtered Redump .DAT.</i></sub>
+  <sub><i>
+    Live progress of HQ assets against latest filtered Redump .DAT.<br>
+    <a href="COMPLETION.md">Full Report</a>
+  </i></sub>
 </p>
+
 
 ### 🎮 PSX1G1B1C1D
 **PSX1G1B1C1D** stands for **PlayStation — 1 Game, 1 Box, 1 Cover, 1 Disc**.
