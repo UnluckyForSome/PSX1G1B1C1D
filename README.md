@@ -1,17 +1,21 @@
-### 🎮 PSX1G1B1C1D
+<p align="center">
+  <img src="https://progress-bar.xyz/94/?title=2D&style=for-the-badge&width=100" />
+  <img src="https://progress-bar.xyz/94/?title=3D&style=for-the-badge&width=100" />
+  <img src="https://progress-bar.xyz/97/?title=Disc&style=for-the-badge&width=100" />
+  <br/>
+  <sub><i>Live progress of HQ assets against latest filtered Redump .DAT</i></sub>
+</p>
 
+
+
+
+
+### 🎮 PSX1G1B1C1D
 **PSX1G1B1C1D** stands for **PlayStation — 1 Game, 1 Box, 1 Cover, 1 Disc**.
 
 This project aims to provide a clean, consistent collection of PlayStation media for every single title — with one standard box render and one disc image per game.
 
-<br/>
-
-Currently missing HQ Standardised imaages against perfect Redump Retool'd DAT:
-  🎨 HQ 2D Box Covers: `████████████████████████████░░ 1676/1793 (93.5%)`
-  📦 HQ 3D Boxes: `████████████████████████████░░ 1676/1793 (93.5%)`
-  💿 HQ Disc Artwork Scans: `█████████████████████████████░ 1735/1793 (96.8%)`
-
-
+</p>
 <p align="center">
   <img src="https://github.com/UnluckyForSome/PSX1G1B1C1D/blob/main/library/2dbox/CTR%20-%20Crash%20Team%20Racing%20(USA).png?raw=true" width="28%" />
   &nbsp;&nbsp;&nbsp;
