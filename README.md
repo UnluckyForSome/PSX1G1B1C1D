@@ -68,4 +68,14 @@ And **consistant PSP ICON0 images** in the same style as the official ones:
 
 ---
 
+### 🙏 Thanks
+
+Many thanks to community contributors whose work and passion inspired this project:
+
+- **[WallyWonka](https://forums.launchbox-app.com/profile/79560-wallywonka/)** — for their excellent and consistent PlayStation asset collections and Photoshop templates!
+
+- **[Lucid1](https://www.reddit.com/user/lusid1/)** — for the inspiring PSP **ICON0.png** project and collection, which I used and added to!
+
+---
+
 ### 😊 Have fun!
