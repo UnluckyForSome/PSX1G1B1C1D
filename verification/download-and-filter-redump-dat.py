@@ -211,9 +211,12 @@ def run_retool(input_dat: Path, retool_dir: Path, output_dir: Path) -> Path | No
     ] + RETOOL_FLAGS + ["--exclude"] + RETOOL_EXCLUDE + ["--output", str(output_dir)]
     
     try:
+        # Automatically answer "y" to any prompts (e.g., downloading missing config files)
+        # Send multiple "y" responses in case there are multiple prompts
         result = subprocess.run(
             cmd,
             cwd=retool_dir,
+            input="y\ny\ny\n",  # Auto-answer "y" to up to 3 prompts
             capture_output=True,
             text=True,
             check=False
