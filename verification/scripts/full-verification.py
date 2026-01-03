@@ -83,12 +83,11 @@ COLLECTION_DIRS = {
         LIBRARY_DIR / "disc-missing",
     ],
     "psp-icon0": [
-        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated",
-        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke",
+        COMPOSITES_DIR / "psp-icon0",
     ],
 }
 
-PSP_ICON0_BESPOKE_DIR = COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke"
+PSP_ICON0_DIR = COMPOSITES_DIR / "psp-icon0"
 
 # Check if running in non-interactive mode (e.g., GitHub Actions)
 NON_INTERACTIVE = not sys.stdin.isatty()
@@ -703,10 +702,11 @@ def check_image_exists(game_name: str, category: str) -> tuple[bool, str]:
             (LIBRARY_DIR / "disc-missing", "missing"),
         ]
     elif category == "psp-icon0":
-        dirs = [
-            (COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated", "generated"),
-            (COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke", "bespoke"),
-        ]
+        # Single directory - check if file exists
+        file_path = PSP_ICON0_DIR / f"{game_name}.png"
+        if file_path.exists():
+            return (True, "psp-icon0")
+        return (False, None)
     else:
         return (False, None)
     
@@ -759,18 +759,12 @@ def check_missing_folder_duplicates(collection_names: set[str]) -> dict:
             locations = []
 
             if category == "psp-icon0":
-                generated_dir = COLLECTION_DIRS[category][0]
-                bespoke_dir = COLLECTION_DIRS[category][1]
-
-                if generated_dir.exists():
-                    generated_file = generated_dir / f"{game_name}.png"
-                    if generated_file.exists():
-                        locations.append("generated")
-
-                if bespoke_dir.exists():
-                    bespoke_file = bespoke_dir / f"{game_name}.png"
-                    if bespoke_file.exists():
-                        locations.append("bespoke")
+                # Single directory - no duplicates possible
+                psp_dir = COLLECTION_DIRS[category][0]
+                if psp_dir.exists():
+                    psp_file = psp_dir / f"{game_name}.png"
+                    if psp_file.exists():
+                        locations.append("psp-icon0")
             else:
                 normal_dir = COLLECTION_DIRS[category][0]
                 lq_dir = COLLECTION_DIRS[category][1]
@@ -798,22 +792,16 @@ def check_missing_folder_duplicates(collection_names: set[str]) -> dict:
 
 
 def check_psp_icon0_sync(collection_names: set[str]) -> list[Path]:
-    """Check for files in psp-icon0 directories that don't match any collection name."""
+    """Check for files in psp-icon0 directory that don't match any collection name."""
     mismatched_files = []
 
-    psp_dirs = [
-        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-generated",
-        COMPOSITES_DIR / "psp-icon0" / "psp-icon0-bespoke"
-    ]
+    if not PSP_ICON0_DIR.exists():
+        return mismatched_files
 
-    for psp_dir in psp_dirs:
-        if not psp_dir.exists():
-            continue
-
-        for file_path in psp_dir.glob("*.png"):
-            game_name = file_path.stem
-            if game_name not in collection_names:
-                mismatched_files.append(file_path)
+    for file_path in PSP_ICON0_DIR.glob("*.png"):
+        game_name = file_path.stem
+        if game_name not in collection_names:
+            mismatched_files.append(file_path)
 
     return mismatched_files
 
@@ -870,8 +858,7 @@ def analyze_image_dimensions(collection_names: set[str]) -> dict:
             "missing": {"dimensions": defaultdict(int), "total": 0},
         },
         "psp-icon0": {
-            "generated": {"dimensions": defaultdict(int), "total": 0},
-            "bespoke": {"dimensions": defaultdict(int), "total": 0},
+            "psp-icon0": {"dimensions": defaultdict(int), "total": 0},
         },
     }
 
@@ -884,12 +871,19 @@ def analyze_image_dimensions(collection_names: set[str]) -> dict:
             
             dir_name = directory.name
             if category == "psp-icon0":
-                if dir_name == "psp-icon0-generated":
-                    dir_type = "generated"
-                elif dir_name == "psp-icon0-bespoke":
-                    dir_type = "bespoke"
-                else:
-                    continue
+                # Single directory
+                dir_type = "psp-icon0"
+                for file_path in directory.glob("*.png"):
+                    game_name = file_path.stem
+                    
+                    if " alt" in game_name:
+                        continue
+                    
+                    dimensions = get_image_dimensions(file_path)
+                    if dimensions:
+                        width, height = dimensions
+                        results[category][dir_type]["dimensions"][(width, height)] += 1
+                        results[category][dir_type]["total"] += 1
             else:
                 if dir_name == category:
                     dir_type = "normal"
@@ -899,23 +893,23 @@ def analyze_image_dimensions(collection_names: set[str]) -> dict:
                     dir_type = "missing"
                 else:
                     continue
-            
-            for file_path in directory.glob("*.png"):
-                game_name = file_path.stem
                 
-                if " alt" in game_name:
-                    continue
-                
-                dimensions = get_image_dimensions(file_path)
-                if dimensions:
-                    width, height = dimensions
-                    results[category][dir_type]["dimensions"][(width, height)] += 1
-                    results[category][dir_type]["total"] += 1
+                for file_path in directory.glob("*.png"):
+                    game_name = file_path.stem
                     
-                    if category == "2dbox" and height > width:
-                        height_percentage = ((height - width) / width) * 100
-                        if height_percentage > 3.0:
-                            results[category][dir_type]["vertical"].append((game_name, width, height))
+                    if " alt" in game_name:
+                        continue
+                    
+                    dimensions = get_image_dimensions(file_path)
+                    if dimensions:
+                        width, height = dimensions
+                        results[category][dir_type]["dimensions"][(width, height)] += 1
+                        results[category][dir_type]["total"] += 1
+                        
+                        if category == "2dbox" and height > width:
+                            height_percentage = ((height - width) / width) * 100
+                            if height_percentage > 3.0:
+                                results[category][dir_type]["vertical"].append((game_name, width, height))
     
     return results
 
@@ -1210,8 +1204,8 @@ def generate_collection_report(dat_file: Path, txt_file: Path | None = None) -> 
             print("  " + "─" * 66)
             
             if category == "psp-icon0":
-                dir_types = ["generated", "bespoke"]
-                dir_indices = [0, 1]
+                dir_types = ["psp-icon0"]
+                dir_indices = [0]
             else:
                 dir_types = ["normal", "lq"]
                 dir_indices = [0, 1]
