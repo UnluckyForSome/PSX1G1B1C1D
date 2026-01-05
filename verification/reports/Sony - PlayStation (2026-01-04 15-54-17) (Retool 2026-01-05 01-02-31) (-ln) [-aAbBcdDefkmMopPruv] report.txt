@@ -6239,6 +6239,7 @@ These titles were removed because the user excluded one or more languages.
 - Blue Breaker Burst - Egao no Asu ni (Japan) (Major Wave)
 - Blue Breaker Burst - Hohoemi o Anata to (Japan)
 - Blue Breaker Burst - Hohoemi o Anata to (Japan) (Major Wave)
+- Blue Breaker Burst - Hohoemi o Anata to (Japan) (Shokai Genteiban)
 - Blue Marlin, The (Japan)
 - Bob Aggiustatutto (Italy)
 - Bob le Bricoleur - Reparer C'est Gagne ! (France)
