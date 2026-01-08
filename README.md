@@ -66,6 +66,12 @@ And **consistant PSP ICON0 images** in the same style as the official ones:
 #### 🤖 Programmatic
 - 🧩 Assets designed to be reusable in automated composites and front-ends
 
+#### 🤖 Retool Filters Used:
+- 🧩 English language only
+- 🧩 Exclude all except: Add-ons, Bonus discs, Educational, Games, Promotional
+- 🧩 Prefer licensed over unlicensed titles
+- 🧩 ALl other Retool settings default
+
 ---
 
 ### 🙏 Thanks
