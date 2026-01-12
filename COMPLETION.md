@@ -1,6 +1,6 @@
 This completion report is updated weekly via automated full verification. It contains the most recent completion status.
 
-**Last Updated:** 2026-01-05 01:02:32 UTC
+**Last Updated:** 2026-01-12 00:59:26 UTC
 
 ```
 
@@ -9,11 +9,11 @@ This completion report is updated weekly via automated full verification. It con
                   📊  COLLECTION vs .DAT FILE REPORT
 ══════════════════════════════════════════════════════════════════════
 
-  Using .dat file: Sony - PlayStation (2026-01-04 15-54-17) (Retool 2026-01-05 01-02-31) (1,793) (-ln) [-aAbBcdDefkmMopPruv].dat
-  Using filter report: Sony - PlayStation (2026-01-04 15-54-17) (Retool 2026-01-05 01-02-31) (-ln) [-aAbBcdDefkmMopPruv] report.txt
-  📋 Parsing filter report: Sony - PlayStation (2026-01-04 15-54-17) (Retool 2026-01-05 01-02-31) (-ln) [-aAbBcdDefkmMopPruv] report.txt
+  Using .dat file: Sony - PlayStation (2026-01-11 16-26-57) (Retool 2026-01-12 00-59-25) (1,793) (-ln) [-aAbBcdDefkmMopPruv].dat
+  Using filter report: Sony - PlayStation (2026-01-11 16-26-57) (Retool 2026-01-12 00-59-25) (-ln) [-aAbBcdDefkmMopPruv] report.txt
+  📋 Parsing filter report: Sony - PlayStation (2026-01-11 16-26-57) (Retool 2026-01-12 00-59-25) (-ln) [-aAbBcdDefkmMopPruv] report.txt
      Found 9096 removed games
-  📄 Parsing .dat file: Sony - PlayStation (2026-01-04 15-54-17) (Retool 2026-01-05 01-02-31) (1,793) (-ln) [-aAbBcdDefkmMopPruv].dat
+  📄 Parsing .dat file: Sony - PlayStation (2026-01-11 16-26-57) (Retool 2026-01-12 00-59-25) (1,793) (-ln) [-aAbBcdDefkmMopPruv].dat
      Found 1793 game names
   📂 Collecting collection filenames...
      Found 1793 unique collection filenames
