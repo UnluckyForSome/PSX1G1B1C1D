@@ -149,7 +149,7 @@
     </div>
   </header>
   <main class="main">
-    <p class="status" id="status">Choose a collection to load links.</p>
+    <p class="status" id="status">Loading repository index…</p>
     <p class="count" id="count" aria-live="polite"></p>
     <ul class="list" id="list" role="list"></ul>
   </main>
@@ -168,41 +168,53 @@
       var countEl = document.getElementById('count');
       var listEl = document.getElementById('list');
 
-      var allEntries = []; // { url, label }
+      var repoTree = null;   // cached full tree from API
+      var allEntries = [];   // { url, label } for current collection
 
       function setStatus(msg, className) {
         statusEl.textContent = msg;
         statusEl.className = 'status ' + (className || '');
       }
 
-      function labelFromUrl(url) {
-        try {
-          var path = new URL(url).pathname;
-          var name = path.split('/').pop() || url;
-          return decodeURIComponent(name);
-        } catch (_) {
-          return url;
-        }
+      function rawUrlFromPath(path) {
+        var encoded = path.split('/').map(encodeURIComponent).join('/');
+        return 'https://raw.githubusercontent.com/' + REPO.owner + '/' + REPO.repo + '/' + REPO.branch + '/' + encoded;
+      }
+
+      function fetchRepoTree() {
+        if (repoTree) return Promise.resolve(repoTree);
+        var url = 'https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + '/git/trees/' + REPO.branch + '?recursive=1';
+        return fetch(url)
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (data.truncated) throw new Error('Repository tree is too large (truncated by API).');
+            repoTree = data.tree || [];
+            return repoTree;
+          });
       }
 
       function loadCollection() {
         var collection = collectionEl.value;
         if (!collection) return;
-        var rawUrl = 'https://raw.githubusercontent.com/' + REPO.owner + '/' + REPO.repo + '/' + REPO.branch + '/' + collection + '/urls.txt';
         setStatus('Loading…', 'loading');
         listEl.innerHTML = '';
         allEntries = [];
         countEl.textContent = '';
 
-        fetch(rawUrl)
-          .then(function (res) {
-            if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-            return res.text();
-          })
-          .then(function (text) {
-            var lines = text.split(/\r?\n/).filter(function (line) { return line.trim(); });
-            allEntries = lines.map(function (url) {
-              return { url: url.trim(), label: labelFromUrl(url) };
+        fetchRepoTree()
+          .then(function (tree) {
+            var prefix = collection + '/';
+            tree.forEach(function (item) {
+              if (item.type !== 'blob' || item.path.indexOf(prefix) !== 0) return;
+              var filename = item.path.slice(prefix.length);
+              if (!filename) return; // ignore bare directory entry
+              allEntries.push({
+                url: rawUrlFromPath(item.path),
+                label: filename
+              });
             });
             setStatus('');
             applyFilter();
