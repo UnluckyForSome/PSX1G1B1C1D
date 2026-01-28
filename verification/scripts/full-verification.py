@@ -49,7 +49,7 @@ README_MD_PATH = SCRIPT_DIR.parent.parent / "README.md"
 README_MD_PATH = SCRIPT_DIR.parent.parent / "README.md"
 
 # Retool filter settings
-RETOOL_FLAGS = ["-n", "-l", "--report"]
+RETOOL_FLAGS = ["-l", "--report"]
 
 # "AabBcDdefkMmoPpruv" taken from the filename when using the gui version of Retool
 RETOOL_EXCLUDE = ["A", "a", "b", "B", "c", "D", "d", "e", "f", "k", "M", "m", "o", "P", "p", "r", "u", "v"]
