@@ -6,6 +6,8 @@
   <sub><i>
     Live progress of HQ assets against latest filtered Redump .DAT.<br>
     <a href="COMPLETION.md">Full Report</a>
+    &nbsp;•&nbsp;
+    <strong>New!</strong> <a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">Collection Browser Here!</a>
   </i></sub>
 </p>
 
