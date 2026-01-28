@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">➜ Collection Browser</a>
+  <a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">👉 Collection Browser 👈</a>
 </p>
 
 <p align="center">
