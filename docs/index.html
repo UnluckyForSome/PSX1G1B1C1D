@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSX1G1B1C1D — Browse & filter</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #79b8ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+    }
+    .header h1 {
+      margin: 0 0 1rem 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .control-group label {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+    select {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 2rem 0.5rem 0.75rem;
+      font-size: 0.875rem;
+      min-width: 12rem;
+    }
+    input[type="search"] {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+      min-width: 16rem;
+    }
+    input[type="search"]::placeholder {
+      color: var(--text-muted);
+    }
+    input[type="search"]:focus,
+    select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(88, 166, 255, 0.2);
+    }
+    .main {
+      padding: 1rem 1.5rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .status {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+    .status.loading { color: var(--accent); }
+    .status.error { color: #f85149; }
+    .list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .list li {
+      border-bottom: 1px solid var(--border);
+    }
+    .list li:last-child { border-bottom: none; }
+    .list a {
+      display: block;
+      padding: 0.5rem 0;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.875rem;
+      word-break: break-all;
+    }
+    .list a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+    .list li.hidden { display: none; }
+    .count {
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>PSX1G1B1C1D — Browse & filter</h1>
+    <div class="controls">
+      <div class="control-group">
+        <label for="collection">Collection</label>
+        <select id="collection">
+          <optgroup label="Library">
+            <option value="library/2dbox">2D Box</option>
+            <option value="library/2dbox-lq">2D Box (LQ)</option>
+            <option value="library/3dbox">3D Box</option>
+            <option value="library/3dbox-lq">3D Box (LQ)</option>
+            <option value="library/3dbox-missing">3D Box (missing)</option>
+            <option value="library/disc">Disc</option>
+            <option value="library/disc-lq">Disc (LQ)</option>
+            <option value="library/disc-missing">Disc (missing)</option>
+          </optgroup>
+          <optgroup label="Composites">
+            <option value="composites/psp-icon0">PSP icon0</option>
+            <option value="composites/psp-pic0">PSP pic0</option>
+            <option value="composites/other">Other</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter">Filter</label>
+        <input type="search" id="filter" placeholder="Type to filter links…" autocomplete="off">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <p class="status" id="status">Choose a collection to load links.</p>
+    <p class="count" id="count" aria-live="polite"></p>
+    <ul class="list" id="list" role="list"></ul>
+  </main>
+  <script>
+    (function () {
+      // Repo config — works from main repo or fork when served from GitHub Pages
+      var REPO = {
+        owner: 'UnluckyForSome',
+        repo: 'PSX1G1B1C1D',
+        branch: 'main'
+      };
+
+      var collectionEl = document.getElementById('collection');
+      var filterEl = document.getElementById('filter');
+      var statusEl = document.getElementById('status');
+      var countEl = document.getElementById('count');
+      var listEl = document.getElementById('list');
+
+      var allEntries = []; // { url, label }
+
+      function setStatus(msg, className) {
+        statusEl.textContent = msg;
+        statusEl.className = 'status ' + (className || '');
+      }
+
+      function labelFromUrl(url) {
+        try {
+          var path = new URL(url).pathname;
+          var name = path.split('/').pop() || url;
+          return decodeURIComponent(name);
+        } catch (_) {
+          return url;
+        }
+      }
+
+      function loadCollection() {
+        var collection = collectionEl.value;
+        if (!collection) return;
+        var rawUrl = 'https://raw.githubusercontent.com/' + REPO.owner + '/' + REPO.repo + '/' + REPO.branch + '/' + collection + '/urls.txt';
+        setStatus('Loading…', 'loading');
+        listEl.innerHTML = '';
+        allEntries = [];
+        countEl.textContent = '';
+
+        fetch(rawUrl)
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+            return res.text();
+          })
+          .then(function (text) {
+            var lines = text.split(/\r?\n/).filter(function (line) { return line.trim(); });
+            allEntries = lines.map(function (url) {
+              return { url: url.trim(), label: labelFromUrl(url) };
+            });
+            setStatus('');
+            applyFilter();
+          })
+          .catch(function (err) {
+            setStatus('Failed to load: ' + err.message, 'error');
+          });
+      }
+
+      function applyFilter() {
+        var q = (filterEl.value || '').trim().toLowerCase();
+        var filtered = q
+          ? allEntries.filter(function (e) { return e.label.toLowerCase().includes(q); })
+          : allEntries;
+
+        listEl.innerHTML = '';
+        filtered.forEach(function (e) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.href = e.url;
+          a.textContent = e.label;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          li.appendChild(a);
+          listEl.appendChild(li);
+        });
+
+        countEl.textContent = filtered.length + ' of ' + allEntries.length + ' links';
+      }
+
+      collectionEl.addEventListener('change', loadCollection);
+      filterEl.addEventListener('input', applyFilter);
+      filterEl.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          filterEl.value = '';
+          filterEl.focus();
+          applyFilter();
+        }
+      });
+
+      loadCollection();
+    })();
+  </script>
+</body>
+</html>

@@ -74,6 +74,15 @@ And **consistant PSP ICON0 images** in the same style as the official ones:
 
 ---
 
+### 📋 Browse & filter (GitHub Pages)
+
+GitHub truncates directories with 1,000+ files. To browse and search all links in one place:
+
+- **Live page:** [Browse & filter](https://unluckyforsome.github.io/PSX1G1B1C1D/) — select a collection (2D Box, 3D Box, Disc, etc.) and type in the filter box to narrow the list.
+- **Enable Pages:** In the repo go to **Settings → Pages**, set **Source** to **Deploy from a branch**, **Branch** to `main`, **Folder** to `/docs`, then Save. The page is served from the `docs/` folder.
+
+---
+
 ### 🙏 Thanks
 
 Many thanks to community contributors whose work and passion inspired this project:
