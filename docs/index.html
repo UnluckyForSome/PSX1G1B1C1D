@@ -6,223 +6,156 @@
   <title>PSX1G1B1C1D Collection Browser</title>
   <style>
     :root {
-      --bg: #0c0e12;
-      --bg-subtle: #0f1218;
+      --bg: #0d1117;
       --surface: #161b22;
-      --surface-elevated: #1c2128;
       --border: #30363d;
-      --border-subtle: #21262d;
       --text: #e6edf3;
       --text-muted: #8b949e;
       --accent: #58a6ff;
       --accent-hover: #79b8ff;
-      --accent-soft: rgba(88, 166, 255, 0.12);
-      --radius: 10px;
-      --radius-sm: 6px;
-      --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     }
     * { box-sizing: border-box; }
     body {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans', Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
       background: var(--bg);
-      background-image: radial-gradient(ellipse 120% 80% at 50% -20%, rgba(88, 166, 255, 0.06), transparent),
-                        linear-gradient(180deg, var(--bg) 0%, var(--bg-subtle) 100%);
       color: var(--text);
       margin: 0;
       padding: 0;
       line-height: 1.6;
-      min-height: 100vh;
     }
-    .header {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      background: rgba(22, 27, 34, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-subtle);
-      padding: 1.25rem 1.5rem;
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03);
-    }
-    .header h1 {
-      margin: 0 0 1.25rem 0;
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      background: linear-gradient(135deg, #e6edf3 0%, #8b949e 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-    }
-    .control-group {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    .control-group label {
-      color: var(--text-muted);
-      font-size: 0.8125rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-    select {
-      background: var(--surface-elevated);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 0.55rem 2rem 0.55rem 0.85rem;
-      font-size: 0.875rem;
-      min-width: 12rem;
-      transition: border-color 0.15s, box-shadow 0.15s;
-    }
-    select:hover { border-color: var(--text-muted); }
-    input[type="search"] {
-      background: var(--surface-elevated);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 0.55rem 0.85rem;
-      font-size: 0.875rem;
-      min-width: 18rem;
-      transition: border-color 0.15s, box-shadow 0.15s;
-    }
-    input[type="search"]::placeholder { color: var(--text-muted); }
-    input[type="search"]:hover { border-color: var(--text-muted); }
-    input[type="search"]:focus,
-    select:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px var(--accent-soft);
-    }
-    .main {
-      padding: 1.75rem 1.5rem 3rem;
-      max-width: 920px;
+    .page {
+      max-width: 720px;
       margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
     }
-    .intro-card {
-      background: var(--surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.75rem;
-      box-shadow: var(--shadow);
+    .page-title {
+      margin: 0 0 1.5rem 0;
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text);
     }
-    .intro-card .intro {
+    .intro-block {
+      margin-bottom: 2rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .intro-block .intro {
       font-size: 0.9375rem;
       color: var(--text-muted);
       margin: 0;
       white-space: pre-line;
       line-height: 1.65;
     }
-    .intro-card .intro + .intro { margin-top: 1rem; }
-    .intro a {
+    .intro-block .intro + .intro { margin-top: 1rem; }
+    .intro-block a {
       color: var(--accent);
       text-decoration: none;
-      font-weight: 500;
-      border-bottom: 1px solid transparent;
-      transition: color 0.15s, border-color 0.15s;
     }
-    .intro a:hover {
-      color: var(--accent-hover);
-      border-bottom-color: var(--accent-hover);
+    .intro-block a:hover { text-decoration: underline; color: var(--accent-hover); }
+    .intro-block .zip-line {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
     }
-    .intro .zip-line { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
+    .filter-bar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      padding: 1rem 0;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+    .filter-bar label {
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+    }
+    .filter-bar select,
+    .filter-bar input[type="search"] {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+    }
+    .filter-bar select { min-width: 11rem; }
+    .filter-bar input[type="search"] { min-width: 14rem; }
+    .filter-bar input[type="search"]::placeholder { color: var(--text-muted); }
+    .filter-bar select:focus,
+    .filter-bar input[type="search"]:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
     .status {
       color: var(--text-muted);
       font-size: 0.875rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
     .status.loading { color: var(--accent); }
     .status.error { color: #f85149; }
     .count {
       color: var(--text-muted);
       font-size: 0.8125rem;
-      margin-bottom: 0.75rem;
-      font-weight: 500;
-    }
-    .list-wrap {
-      background: var(--surface);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow);
+      margin-bottom: 0.5rem;
     }
     .list {
       list-style: none;
       margin: 0;
       padding: 0;
-      max-height: 70vh;
-      overflow-y: auto;
     }
     .list li {
-      border-bottom: 1px solid var(--border-subtle);
-      transition: background 0.1s;
+      border-bottom: 1px solid var(--border);
     }
     .list li:last-child { border-bottom: none; }
-    .list li:hover { background: var(--accent-soft); }
     .list a {
       display: block;
-      padding: 0.6rem 1rem;
+      padding: 0.5rem 0;
       color: var(--accent);
       text-decoration: none;
       font-size: 0.875rem;
       word-break: break-all;
-      transition: color 0.1s;
     }
-    .list a:hover {
-      color: var(--accent-hover);
-    }
-    .list li.hidden { display: none; }
+    .list a:hover { color: var(--accent-hover); text-decoration: underline; }
   </style>
 </head>
 <body>
-  <header class="header">
-    <h1>PSX1G1B1C1D Collection Browser</h1>
-    <div class="controls">
-      <div class="control-group">
-        <label for="collection">Collection</label>
-        <select id="collection">
-          <optgroup label="Library">
-            <option value="library/2dbox">2D Box</option>
-            <option value="library/2dbox-lq">2D Box (LQ)</option>
-            <option value="library/3dbox">3D Box</option>
-            <option value="library/3dbox-lq">3D Box (LQ)</option>
-            <option value="library/disc">Disc</option>
-            <option value="library/disc-lq">Disc (LQ)</option>
-          </optgroup>
-          <optgroup label="Composites">
-            <option value="composites/psp-icon0">PSP icon0</option>
-            <option value="composites/psp-pic0">PSP pic0</option>
-          </optgroup>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="filter">Filter</label>
-        <input type="search" id="filter" placeholder="Type to filter links…" autocomplete="off">
-      </div>
-    </div>
-  </header>
-  <main class="main">
-    <div class="intro-card">
-      <p class="intro">-------------
-This is an individual asset filter pointed at the <a href="https://github.com/UnluckyForSome/PSX1G1B1C1D">PSX1G1B1C1D repo</a> to assist in finding assets quickly!
+  <main class="page">
+    <h1 class="page-title">PSX1G1B1C1D Collection Browser</h1>
+    <div class="intro-block">
+      <p class="intro">This is an individual asset filter pointed at the <a href="https://github.com/UnluckyForSome/PSX1G1B1C1D">PSX1G1B1C1D repo</a> to assist in finding assets quickly!
 
-Github truncates directories with 1000+ files and so using the file browser there isn't ideal — the files exist, but are not visible in the GitHub explorer. I've tried to make it as easy as possible to find individual assets as quickly as possible here.
--------------</p>
+Github truncates directories with 1000+ files and so using the file browser there isn't ideal — the files exist, but are not visible in the GitHub explorer. I've tried to make it as easy as possible to find individual assets as quickly as possible here.</p>
       <p class="intro zip-line">If you want all of the assets at once, I suggest you <a href="https://github.com/UnluckyForSome/PSX1G1B1C1D/archive/refs/heads/main.zip">Download as ZIP</a>.</p>
+    </div>
+    <div class="filter-bar">
+      <label for="collection">Collection</label>
+      <select id="collection">
+        <optgroup label="Library">
+          <option value="library/2dbox">2D Box</option>
+          <option value="library/2dbox-lq">2D Box (LQ)</option>
+          <option value="library/3dbox">3D Box</option>
+          <option value="library/3dbox-lq">3D Box (LQ)</option>
+          <option value="library/disc">Disc</option>
+          <option value="library/disc-lq">Disc (LQ)</option>
+        </optgroup>
+        <optgroup label="Composites">
+          <option value="composites/psp-icon0">PSP icon0</option>
+          <option value="composites/psp-pic0">PSP pic0</option>
+        </optgroup>
+      </select>
+      <label for="filter">Filter</label>
+      <input type="search" id="filter" placeholder="Type to filter links…" autocomplete="off">
     </div>
     <p class="status" id="status">Loading repository index…</p>
     <p class="count" id="count" aria-live="polite"></p>
-    <div class="list-wrap">
-      <ul class="list" id="list" role="list"></ul>
-    </div>
+    <ul class="list" id="list" role="list"></ul>
   </main>
   <script>
     (function () {
