@@ -12,7 +12,7 @@
 
 ### 🎮 PSX1G1B1C1D
 
-<p align="center">
+<p>
   <strong><a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">→ Collection Browser</a></strong> <sub><i>New! Browse & filter all assets</i></sub>
 </p>
 
