@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">➜ Collection Browser</a>
+</p>
+
+<p align="center">
   <img src="https://progress-bar.xyz/93/?title=2D&style=for-the-badge&width=100" />
   <img src="https://progress-bar.xyz/93/?title=3D&style=for-the-badge&width=100" />
   <img src="https://progress-bar.xyz/96/?title=Disc&style=for-the-badge&width=100" />
@@ -11,11 +15,6 @@
 
 
 ### 🎮 PSX1G1B1C1D
-
-<p>
-  <strong><a href="https://unluckyforsome.github.io/PSX1G1B1C1D/">→ Collection Browser</a></strong> <sub><i>New! Browse & filter all assets</i></sub>
-</p>
-
 **PSX1G1B1C1D** stands for **PlayStation — 1 Game, 1 Box, 1 Cover, 1 Disc**.
 
 This project aims to provide a clean, consistent collection of PlayStation media for every single title — with one standard box render and one disc image per game.
