@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sony - PlayStation (Retool)</name>
-		<description>Sony - PlayStation (1,793) (-ln) [-aAbBcdDefkmMopPruv] (2026-01-02 23-41-34) (Retool)</description>
-		<version>2026-01-02 23-41-34</version>
-		<date>2026-01-03 13-50-16</date>
+		<description>Sony - PlayStation (1,789) (-l) [-aAbBcdDefkmMopPruv] (2026-01-31 22-57-13) (Retool)</description>
+		<version>2026-01-31 22-57-13</version>
+		<date>2026-02-02 01-08-39</date>
 		<author>redump.org</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>http://redump.org/</url>
@@ -2424,25 +2424,6 @@
 		<rom name="Bust-A-Move '99 (USA) (Track 20).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
 		<rom name="Bust-A-Move '99 (USA).cue" size="2302" crc="6b95127e" md5="4153d81a41e70109f7386f979bd48c3d" sha1="714289112e0a10f133446a7eefc9582dc519fc71"/>
 	</game>
-	<game name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games)">
-		<category>Games</category>
-		<description>Bust-A-Move 2 - Arcade Edition (Italy) (2 Games)</description>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 01).bin" size="28369824" crc="edf69df9" md5="7d3be90f62764ade74c7ed557e05d548" sha1="bdd4553fcd5437217c908ff106be44a85cebcefe"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 02).bin" size="1869840" crc="e6809f15" md5="324e86b91bd9035d1f1080c9a3099a79" sha1="4d08db14699c9e1006e0fd64580308266bea5d4e"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 03).bin" size="13345248" crc="edbdd31b" md5="d5c65c21130602556d60b42414889916" sha1="bc9073820c6caab2a1d5cc69238587e6bde475f7"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 04).bin" size="12726672" crc="d9793054" md5="28e5d04464862b2979dddfe0221e9af2" sha1="e26b0dc47797003b467891f51d8e2084d17f30d7"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 05).bin" size="33958176" crc="6f3d7424" md5="92feb0dce5e4286cdf08ff56dd77e4c9" sha1="80a25117805df470e174222daad36861c2db2fd1"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 06).bin" size="35030688" crc="a04b1b87" md5="ddd440ff460b2725d60c07a3e25d104e" sha1="0a393b4015a63e8d51e3f4e17e09cf0648523561"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 07).bin" size="33795888" crc="c0f90cbb" md5="17b64377efe3d6c3bc46445d42452b1c" sha1="f007bd4c61f7dc30fa32244f538f35d3cda72420"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 08).bin" size="34898976" crc="d023bdec" md5="f64eed8ca4af26b7af67d9544472f134" sha1="a001e6a91d13a08b1e8fd94ab211871b9d183117"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 09).bin" size="34219248" crc="f2de62dd" md5="b43ebb671ff31e907a437ea456c77366" sha1="d1765b989974cd7bf68f16e29e77f76956c84994"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 10).bin" size="1691088" crc="d328460a" md5="ea9e883760f3338578f45cd36bef2522" sha1="79eaef819941ef937534279e6279b0b9624ed32c"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 11).bin" size="25458048" crc="83d42eba" md5="c5f4bb56489ae7b83cd7ceb8ac5c46b7" sha1="95062adcbfe6763522d728e6ba0fe51a2f83df0b"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 12).bin" size="10033632" crc="fdc4b700" md5="c80ed0d8939898855e329342c5ebad16" sha1="69813fee25b96a9bc68c14ec34291609b8d79d1f"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 13).bin" size="13053600" crc="f3770590" md5="e1c8aa7a5e255c9c9508cd409abf4f50" sha1="5635907f575c7d71109370fb8c87f4fc006d6711"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 14).bin" size="36016176" crc="558b5210" md5="5034e643e215857fa79d61e919e29183" sha1="444f7bc8f28e8972807c555a80f81bc3dbbf4590"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games).cue" size="1984" crc="d28d7f08" md5="51ccca3e9eb16c0b43b98f84dc5d1a91" sha1="d625143bb66bf0077ade462a4b3d2bb332a5b0e4"/>
-	</game>
 	<game name="Bust-A-Move 2 - Arcade Edition (USA)">
 		<category>Games</category>
 		<description>Bust-A-Move 2 - Arcade Edition (USA)</description>
@@ -2462,30 +2443,6 @@
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA) (Track 14).bin" size="36016176" crc="558b5210" md5="5034e643e215857fa79d61e919e29183" sha1="444f7bc8f28e8972807c555a80f81bc3dbbf4590"/>
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA) (Track 15).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA).cue" size="1947" crc="0628bdc5" md5="61002dff53bdaa8e167a54067b2f01a7" sha1="ed4a437a6f653cc71ad6ac0da68cc85eb093f298"/>
-	</game>
-	<game name="Bust-A-Move 3 DX (Italy) (2 Games)">
-		<category>Games</category>
-		<description>Bust-A-Move 3 DX (Italy) (2 Games)</description>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 01).bin" size="17585904" crc="8d3f3c09" md5="6173a080093ede98a2657052fa376e8a" sha1="8a357f751facf2383219354e5e8b62f9c6ec1d48"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 02).bin" size="1780464" crc="440c40f0" md5="8a620a5a7774aa378ee0df0596de9cee" sha1="33c966ece7edbd42df16096ae5e59d4a4c3d45fe"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 03).bin" size="16240560" crc="9d33526d" md5="7ae81d46662ae75a10c46805d1c4291d" sha1="7c199263c17523819a01f5c73e9b244a4651229f"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 04).bin" size="16264080" crc="0c119c38" md5="7c53e532e70a4bfd0005d4d59f68509f" sha1="9c0855cf7800ced28ee2d863947a87df4634f7d2"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 05).bin" size="5028576" crc="65ef46a1" md5="77db92e57a410a453d2b037c2396b48f" sha1="b3164ab980043fd4b93fb318e7b3f19b3049607d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 06).bin" size="8297856" crc="5711fe70" md5="2174d909856c5e78f683e4893489dd0f" sha1="eb7cf71bf199205b8b7995f48ca828e139bf84d2"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 07).bin" size="48300672" crc="e2396f0f" md5="95d7ede99e6b582d1f75e55e99cb64b0" sha1="290215f212f68c71ba5e928f1e70d99379c638f7"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 08).bin" size="46252080" crc="228575d9" md5="e677d36d075af3742d7168a4d7ca6356" sha1="d1e912e36f3107e195a51663f713fe1b67c5781f"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 09).bin" size="46783632" crc="d3a75561" md5="e2750dc0f7cc9f902657d50fc4f35a53" sha1="6868b781fa1ebaa16a3238fb450826d8b013cb19"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 10).bin" size="45880464" crc="cd44fdb1" md5="8465d4128bbf3c29f843a1c5ab52bb0c" sha1="5d8f0324b83a332309dbc5f3eee64918f3ce057d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 11).bin" size="29049552" crc="ff6616f5" md5="6944154b51909648cc4cb3458e06b170" sha1="60bef732f133fe40733687039ed79a9264b02adc"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 12).bin" size="1150128" crc="63587d7d" md5="340a4811fcfef68bd17bcb4f2541183d" sha1="224a5266012fc0de18a652887927ebe804a9fc7e"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 13).bin" size="1237152" crc="54a29365" md5="f762c52bfded7a13a53ae2c2e1b7fee2" sha1="fae83b2497e72c26764de7db03c70021d3a7626d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 14).bin" size="13015968" crc="736a0700" md5="b17a9d0a79402d91f8035f09df7b4d13" sha1="d70b291c7256c5c58e5cbe79a7a5be3319c36c4d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 15).bin" size="1613472" crc="49e80146" md5="499882901dc140a06fb01c411d4b9bdc" sha1="3c0e445e0bde95ddcc90e95e6db64dc7e9cc8232"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 16).bin" size="24964128" crc="14da7570" md5="e504a3017cf4257f9e5fd7afc28c391e" sha1="5862039c7009a5b819a59258f148ab0dd929725a"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 17).bin" size="9215136" crc="2bc639a5" md5="4efc514d15660c71628b113681c3bfd2" sha1="51b62a237bd3f9bd3151ed6369f0dd8d34977b41"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 18).bin" size="1580544" crc="b779d09f" md5="a7a49619ca70217c9f04cb7140534d9a" sha1="6225e0e2483b08fa6aebf595e1466fcb966abd7b"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 19).bin" size="42691152" crc="f9cd0ec4" md5="2f0b3177b72b795173f28b8496c52d60" sha1="b25eb17ab52f16100cbe3d0d76a9555addab8c2e"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games).cue" size="2433" crc="3e95c017" md5="248c22768db76a843df9217d174fb7b4" sha1="30d1fbf69866a8e0a2cf6e81f14218f853c6b237"/>
 	</game>
 	<game name="Bust-A-Move 4 (USA)">
 		<category>Games</category>
@@ -12734,40 +12691,6 @@
 		<rom name="Rayman Brain Games (USA) (Track 11).bin" size="10569888" crc="99405dc2" md5="b6c6db6b840a425134c1634d7cc48bd9" sha1="47a45d4b83791b05a018ea59e35ebbdc8359a49e"/>
 		<rom name="Rayman Brain Games (USA) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
 		<rom name="Rayman Brain Games (USA).cue" size="1410" crc="0eea19d7" md5="21b552e5e9fd885fa2374f774eb0f621" sha1="c2fa59cc0c34ce9e697d29289c4fc43f7b854ef6"/>
-	</game>
-	<game name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It)">
-		<category>Games</category>
-		<description>Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It)</description>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 01).bin" size="495524064" crc="a73c2f65" md5="c7c511ad1c6d227760db72dc5ae77f12" sha1="dd6500dc3bb292973079a6bbe08000c8cba2f738"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 02).bin" size="22040592" crc="5c4fd454" md5="62d798a43e085fef0a52b64168b0626e" sha1="ec2057ad356994e9459e07e325d102618440c215"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 03).bin" size="22360464" crc="d93ab8ee" md5="e834feb1255729b61e5c4a2555618fff" sha1="14f459007ea63572e2cfce449e10a2c29c2a0146"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 04).bin" size="22558032" crc="c2c9ad27" md5="a35b3c9bc65ef6da16cd51786dbc3f60" sha1="b7f3029dd8b9ee6e8f530afaa62cd4b74ee82ea4"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 05).bin" size="21643104" crc="b1f68388" md5="b8a9633a4731a0fbfbb7ddc8749b3b76" sha1="06b661c0eec9865576de5f88184730cb071db7c8"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 06).bin" size="22593312" crc="047803fd" md5="2d66de014eff26bbbe74232ad42a5999" sha1="2c4014ba366df34ea30878b45a6732599131331a"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 07).bin" size="21520800" crc="6e14705f" md5="55d66b48b51e6404cda4295f370c5fc7" sha1="921272a835ae87d316b805026962c9e65bc2a910"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 08).bin" size="21372624" crc="706da7ba" md5="1d370ec5f472404d781f7ba15c3151e0" sha1="3a2e104a96f49cf496c149ec6740f068c10ea96d"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 09).bin" size="25552128" crc="7eba7c28" md5="3fdb4a7f154aedbf6f2cf43c942ee573" sha1="d01304dc939dc1ff8776ab22323cf745378449f0"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 10).bin" size="1865136" crc="cfbd00be" md5="4829766c2377fdbc621f71b37df544d7" sha1="912eb7ab3cca229a5632db635462239ccb4d3d17"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 11).bin" size="10569888" crc="99405dc2" md5="b6c6db6b840a425134c1634d7cc48bd9" sha1="47a45d4b83791b05a018ea59e35ebbdc8359a49e"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It).cue" size="1710" crc="5b2012d6" md5="78f2ffa1e7a8e7edfbd422fb9088a06f" sha1="f86f7323432983d337a68ca050948f3c88609ab2"/>
-	</game>
-	<game name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It)">
-		<category>Games</category>
-		<description>Rayman Junior - Level 3 (Europe) (En,Fr,Es,It)</description>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 01).bin" size="396504864" crc="76a411b4" md5="891e4c9069d6d448ed22be88076dce78" sha1="d35e38deca68f31ca4499d365942bbebf543e396"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 02).bin" size="22040592" crc="5c4fd454" md5="62d798a43e085fef0a52b64168b0626e" sha1="ec2057ad356994e9459e07e325d102618440c215"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 03).bin" size="22360464" crc="d93ab8ee" md5="e834feb1255729b61e5c4a2555618fff" sha1="14f459007ea63572e2cfce449e10a2c29c2a0146"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 04).bin" size="22558032" crc="c2c9ad27" md5="a35b3c9bc65ef6da16cd51786dbc3f60" sha1="b7f3029dd8b9ee6e8f530afaa62cd4b74ee82ea4"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 05).bin" size="21643104" crc="b1f68388" md5="b8a9633a4731a0fbfbb7ddc8749b3b76" sha1="06b661c0eec9865576de5f88184730cb071db7c8"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 06).bin" size="22593312" crc="047803fd" md5="2d66de014eff26bbbe74232ad42a5999" sha1="2c4014ba366df34ea30878b45a6732599131331a"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 07).bin" size="21520800" crc="6e14705f" md5="55d66b48b51e6404cda4295f370c5fc7" sha1="921272a835ae87d316b805026962c9e65bc2a910"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 08).bin" size="21372624" crc="706da7ba" md5="1d370ec5f472404d781f7ba15c3151e0" sha1="3a2e104a96f49cf496c149ec6740f068c10ea96d"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 09).bin" size="25552128" crc="7eba7c28" md5="3fdb4a7f154aedbf6f2cf43c942ee573" sha1="d01304dc939dc1ff8776ab22323cf745378449f0"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 10).bin" size="1865136" crc="cfbd00be" md5="4829766c2377fdbc621f71b37df544d7" sha1="912eb7ab3cca229a5632db635462239ccb4d3d17"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 11).bin" size="10569888" crc="99405dc2" md5="b6c6db6b840a425134c1634d7cc48bd9" sha1="47a45d4b83791b05a018ea59e35ebbdc8359a49e"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It).cue" size="1674" crc="bdc24b90" md5="275832e2244874580bfe5ff21f3cb539" sha1="33ad6dae8503d1d1e3875d9a4df46d4fe659bd55"/>
 	</game>
 	<game name="Rayman Rush (USA)">
 		<category>Games</category>
