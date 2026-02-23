@@ -1,6 +1,6 @@
 This completion report is updated weekly via automated full verification. It contains the most recent completion status.
 
-**Last Updated:** 2026-02-09 01:10:45 UTC
+**Last Updated:** 2026-02-23 01:08:58 UTC
 
 ```
 
@@ -9,11 +9,11 @@ This completion report is updated weekly via automated full verification. It con
                   📊  COLLECTION vs .DAT FILE REPORT
 ══════════════════════════════════════════════════════════════════════
 
-  Using .dat file: Sony - PlayStation (2026-02-08 15-22-27) (Retool 2026-02-09 01-10-43) (1,789) (-l) [-aAbBcdDefkmMopPruv].dat
-  Using filter report: Sony - PlayStation (2026-02-08 15-22-27) (Retool 2026-02-09 01-10-43) (-l) [-aAbBcdDefkmMopPruv] report.txt
-  📋 Parsing filter report: Sony - PlayStation (2026-02-08 15-22-27) (Retool 2026-02-09 01-10-43) (-l) [-aAbBcdDefkmMopPruv] report.txt
-     Found 9112 removed games
-  📄 Parsing .dat file: Sony - PlayStation (2026-02-08 15-22-27) (Retool 2026-02-09 01-10-43) (1,789) (-l) [-aAbBcdDefkmMopPruv].dat
+  Using .dat file: Sony - PlayStation (2026-02-22 19-35-42) (Retool 2026-02-23 01-08-57) (1,789) (-l) [-aAbBcdDefkmMopPruv].dat
+  Using filter report: Sony - PlayStation (2026-02-22 19-35-42) (Retool 2026-02-23 01-08-57) (-l) [-aAbBcdDefkmMopPruv] report.txt
+  📋 Parsing filter report: Sony - PlayStation (2026-02-22 19-35-42) (Retool 2026-02-23 01-08-57) (-l) [-aAbBcdDefkmMopPruv] report.txt
+     Found 9114 removed games
+  📄 Parsing .dat file: Sony - PlayStation (2026-02-22 19-35-42) (Retool 2026-02-23 01-08-57) (1,789) (-l) [-aAbBcdDefkmMopPruv].dat
      Found 1789 game names
   📂 Collecting collection filenames...
      Found 1793 unique collection filenames
@@ -26,9 +26,9 @@ This completion report is updated weekly via automated full verification. It con
 
   Total games in .dat file:          1789
   Total games in collection:         1793
-  Games in both:                     1789
-  Games in .dat not in collection:      0
-  Games in collection not in .dat:      4
+  Games in both:                     1788
+  Games in .dat not in collection:      1
+  Games in collection not in .dat:      5
 
 
   🔍 Checking collection completeness...
@@ -241,14 +241,16 @@ This completion report is updated weekly via automated full verification. It con
 
 
 ══════════════════════════════════════════════════════════════════════
-                  ✅  GAMES IN .DAT NOT IN COLLECTION
+             📋  GAMES IN .DAT NOT IN COLLECTION (1 games)
 ══════════════════════════════════════════════════════════════════════
 
-  ✅ All games from .dat file are in your collection!
+  These games exist in the .dat file but are missing from your collection:
+
+  📋 Fisher-Price Rescue Heroes - Molten Menace (USA)
 
 
 ══════════════════════════════════════════════════════════════════════
-             ❓  GAMES IN COLLECTION NOT IN .DAT (4 games)
+             ❓  GAMES IN COLLECTION NOT IN .DAT (5 games)
 ══════════════════════════════════════════════════════════════════════
 
   These games exist in your collection but are not in the .dat file:
@@ -257,6 +259,9 @@ This completion report is updated weekly via automated full verification. It con
   ⭐ Bust-A-Move 3 DX (Italy) (2 Games) → Superior version: 'Bust-A-Move '99 (USA)'
   ⭐ Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) → Superior version: 'Rayman Brain Games (USA)'
   ⭐ Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) → Superior version: 'Rayman Brain Games (USA)'
+
+  Games without removal reason in filter report:
+  ❓ Rescue Heroes - Molten Menace (USA)
 
 
   ⚠️  Differences found between collection and .dat file
