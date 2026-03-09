@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sony - PlayStation (Retool)</name>
-		<description>Sony - PlayStation (1,793) (-ln) [-aAbBcdDefkmMopPruv] (2026-01-04 15-54-17) (Retool)</description>
-		<version>2026-01-04 15-54-17</version>
-		<date>2026-01-05 01-02-31</date>
+		<description>Sony - PlayStation (1,789) (-l) [-aAbBcdDefkmMopPruv] (2026-03-03 13-07-52) (Retool)</description>
+		<version>2026-03-03 13-07-52</version>
+		<date>2026-03-09 01-08-14</date>
 		<author>redump.org</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>http://redump.org/</url>
@@ -2424,25 +2424,6 @@
 		<rom name="Bust-A-Move '99 (USA) (Track 20).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
 		<rom name="Bust-A-Move '99 (USA).cue" size="2302" crc="6b95127e" md5="4153d81a41e70109f7386f979bd48c3d" sha1="714289112e0a10f133446a7eefc9582dc519fc71"/>
 	</game>
-	<game name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games)">
-		<category>Games</category>
-		<description>Bust-A-Move 2 - Arcade Edition (Italy) (2 Games)</description>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 01).bin" size="28369824" crc="edf69df9" md5="7d3be90f62764ade74c7ed557e05d548" sha1="bdd4553fcd5437217c908ff106be44a85cebcefe"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 02).bin" size="1869840" crc="e6809f15" md5="324e86b91bd9035d1f1080c9a3099a79" sha1="4d08db14699c9e1006e0fd64580308266bea5d4e"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 03).bin" size="13345248" crc="edbdd31b" md5="d5c65c21130602556d60b42414889916" sha1="bc9073820c6caab2a1d5cc69238587e6bde475f7"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 04).bin" size="12726672" crc="d9793054" md5="28e5d04464862b2979dddfe0221e9af2" sha1="e26b0dc47797003b467891f51d8e2084d17f30d7"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 05).bin" size="33958176" crc="6f3d7424" md5="92feb0dce5e4286cdf08ff56dd77e4c9" sha1="80a25117805df470e174222daad36861c2db2fd1"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 06).bin" size="35030688" crc="a04b1b87" md5="ddd440ff460b2725d60c07a3e25d104e" sha1="0a393b4015a63e8d51e3f4e17e09cf0648523561"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 07).bin" size="33795888" crc="c0f90cbb" md5="17b64377efe3d6c3bc46445d42452b1c" sha1="f007bd4c61f7dc30fa32244f538f35d3cda72420"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 08).bin" size="34898976" crc="d023bdec" md5="f64eed8ca4af26b7af67d9544472f134" sha1="a001e6a91d13a08b1e8fd94ab211871b9d183117"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 09).bin" size="34219248" crc="f2de62dd" md5="b43ebb671ff31e907a437ea456c77366" sha1="d1765b989974cd7bf68f16e29e77f76956c84994"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 10).bin" size="1691088" crc="d328460a" md5="ea9e883760f3338578f45cd36bef2522" sha1="79eaef819941ef937534279e6279b0b9624ed32c"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 11).bin" size="25458048" crc="83d42eba" md5="c5f4bb56489ae7b83cd7ceb8ac5c46b7" sha1="95062adcbfe6763522d728e6ba0fe51a2f83df0b"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 12).bin" size="10033632" crc="fdc4b700" md5="c80ed0d8939898855e329342c5ebad16" sha1="69813fee25b96a9bc68c14ec34291609b8d79d1f"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 13).bin" size="13053600" crc="f3770590" md5="e1c8aa7a5e255c9c9508cd409abf4f50" sha1="5635907f575c7d71109370fb8c87f4fc006d6711"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games) (Track 14).bin" size="36016176" crc="558b5210" md5="5034e643e215857fa79d61e919e29183" sha1="444f7bc8f28e8972807c555a80f81bc3dbbf4590"/>
-		<rom name="Bust-A-Move 2 - Arcade Edition (Italy) (2 Games).cue" size="1984" crc="d28d7f08" md5="51ccca3e9eb16c0b43b98f84dc5d1a91" sha1="d625143bb66bf0077ade462a4b3d2bb332a5b0e4"/>
-	</game>
 	<game name="Bust-A-Move 2 - Arcade Edition (USA)">
 		<category>Games</category>
 		<description>Bust-A-Move 2 - Arcade Edition (USA)</description>
@@ -2462,30 +2443,6 @@
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA) (Track 14).bin" size="36016176" crc="558b5210" md5="5034e643e215857fa79d61e919e29183" sha1="444f7bc8f28e8972807c555a80f81bc3dbbf4590"/>
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA) (Track 15).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
 		<rom name="Bust-A-Move 2 - Arcade Edition (USA).cue" size="1947" crc="0628bdc5" md5="61002dff53bdaa8e167a54067b2f01a7" sha1="ed4a437a6f653cc71ad6ac0da68cc85eb093f298"/>
-	</game>
-	<game name="Bust-A-Move 3 DX (Italy) (2 Games)">
-		<category>Games</category>
-		<description>Bust-A-Move 3 DX (Italy) (2 Games)</description>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 01).bin" size="17585904" crc="8d3f3c09" md5="6173a080093ede98a2657052fa376e8a" sha1="8a357f751facf2383219354e5e8b62f9c6ec1d48"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 02).bin" size="1780464" crc="440c40f0" md5="8a620a5a7774aa378ee0df0596de9cee" sha1="33c966ece7edbd42df16096ae5e59d4a4c3d45fe"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 03).bin" size="16240560" crc="9d33526d" md5="7ae81d46662ae75a10c46805d1c4291d" sha1="7c199263c17523819a01f5c73e9b244a4651229f"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 04).bin" size="16264080" crc="0c119c38" md5="7c53e532e70a4bfd0005d4d59f68509f" sha1="9c0855cf7800ced28ee2d863947a87df4634f7d2"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 05).bin" size="5028576" crc="65ef46a1" md5="77db92e57a410a453d2b037c2396b48f" sha1="b3164ab980043fd4b93fb318e7b3f19b3049607d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 06).bin" size="8297856" crc="5711fe70" md5="2174d909856c5e78f683e4893489dd0f" sha1="eb7cf71bf199205b8b7995f48ca828e139bf84d2"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 07).bin" size="48300672" crc="e2396f0f" md5="95d7ede99e6b582d1f75e55e99cb64b0" sha1="290215f212f68c71ba5e928f1e70d99379c638f7"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 08).bin" size="46252080" crc="228575d9" md5="e677d36d075af3742d7168a4d7ca6356" sha1="d1e912e36f3107e195a51663f713fe1b67c5781f"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 09).bin" size="46783632" crc="d3a75561" md5="e2750dc0f7cc9f902657d50fc4f35a53" sha1="6868b781fa1ebaa16a3238fb450826d8b013cb19"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 10).bin" size="45880464" crc="cd44fdb1" md5="8465d4128bbf3c29f843a1c5ab52bb0c" sha1="5d8f0324b83a332309dbc5f3eee64918f3ce057d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 11).bin" size="29049552" crc="ff6616f5" md5="6944154b51909648cc4cb3458e06b170" sha1="60bef732f133fe40733687039ed79a9264b02adc"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 12).bin" size="1150128" crc="63587d7d" md5="340a4811fcfef68bd17bcb4f2541183d" sha1="224a5266012fc0de18a652887927ebe804a9fc7e"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 13).bin" size="1237152" crc="54a29365" md5="f762c52bfded7a13a53ae2c2e1b7fee2" sha1="fae83b2497e72c26764de7db03c70021d3a7626d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 14).bin" size="13015968" crc="736a0700" md5="b17a9d0a79402d91f8035f09df7b4d13" sha1="d70b291c7256c5c58e5cbe79a7a5be3319c36c4d"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 15).bin" size="1613472" crc="49e80146" md5="499882901dc140a06fb01c411d4b9bdc" sha1="3c0e445e0bde95ddcc90e95e6db64dc7e9cc8232"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 16).bin" size="24964128" crc="14da7570" md5="e504a3017cf4257f9e5fd7afc28c391e" sha1="5862039c7009a5b819a59258f148ab0dd929725a"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 17).bin" size="9215136" crc="2bc639a5" md5="4efc514d15660c71628b113681c3bfd2" sha1="51b62a237bd3f9bd3151ed6369f0dd8d34977b41"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 18).bin" size="1580544" crc="b779d09f" md5="a7a49619ca70217c9f04cb7140534d9a" sha1="6225e0e2483b08fa6aebf595e1466fcb966abd7b"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games) (Track 19).bin" size="42691152" crc="f9cd0ec4" md5="2f0b3177b72b795173f28b8496c52d60" sha1="b25eb17ab52f16100cbe3d0d76a9555addab8c2e"/>
-		<rom name="Bust-A-Move 3 DX (Italy) (2 Games).cue" size="2433" crc="3e95c017" md5="248c22768db76a843df9217d174fb7b4" sha1="30d1fbf69866a8e0a2cf6e81f14218f853c6b237"/>
 	</game>
 	<game name="Bust-A-Move 4 (USA)">
 		<category>Games</category>
@@ -5782,6 +5739,99 @@
 		<description>Firo &amp; Klawd (Europe)</description>
 		<rom name="Firo &amp; Klawd (Europe).bin" size="662048016" crc="850b6731" md5="38fa1c60c533ab94e63cbb2eee35ccbc" sha1="6f2370916ea404db8cee6829cfe78daaff56de76"/>
 		<rom name="Firo &amp; Klawd (Europe).cue" size="87" crc="e68d20e8" md5="30b9ae8a298584e8eb3986816537d570" sha1="a8118d885a573cbcb9c87dc27f97d98eb31b50ca"/>
+	</game>
+	<game name="Fisher-Price Rescue Heroes - Molten Menace (USA)">
+		<category>Games</category>
+		<description>Fisher-Price Rescue Heroes - Molten Menace (USA)</description>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 01).bin" size="125893152" crc="193b57c3" md5="01fe417695533bcb091a527f83d3c59a" sha1="43e5b52e82040018030e93a208b93a5eac7b2ead"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 02).bin" size="9963072" crc="8dc2afba" md5="4a7560b56c5c2a5b3b1b46d44cf7a550" sha1="beb43b5e356ef67370643558d42dc28fd3053b0b"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 03).bin" size="1225392" crc="10faf94b" md5="11507114aae1de264a2a5e750529cfbc" sha1="a8b9ca2c0d38375fe7da6d0184d41257c74ac969"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 04).bin" size="25509792" crc="b7c0d7cc" md5="e2378ee83be3389599bcdb3e3d2eecd1" sha1="8e69ca9a522ca6f5e7a75e2bc78d6e824b1d600a"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 05).bin" size="1488816" crc="44c13556" md5="3137508f77da2a80ff9342c89720bd97" sha1="b0b511977108b25b2d78832fe802b8d76389c662"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 06).bin" size="28087584" crc="5ed52cd9" md5="f9b1219147d0894dd0544d4a9fac1c48" sha1="4ab28daaf213936ea36822135a11bf72c536e417"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 07).bin" size="1201872" crc="a0dc4c0f" md5="fe6b48ec5b553d7b21786ff08119fd8c" sha1="bb72f6e544f5cdd8b0574d7ef6c5ed1cd3bf0b35"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 08).bin" size="26869248" crc="b3824ac7" md5="53dac0ef91f9fb400c88ef520d7de044" sha1="b097e2e372cfc0a4137912cb9dee2ed486f2e8d8"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 09).bin" size="1168944" crc="67507d09" md5="e3801fec760f488d77c5fae83d262e0b" sha1="834a62675384039f49ccd6e304f681e44f324e0f"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 10).bin" size="15462048" crc="f632b706" md5="0d13dbfb3c9d7d9aa7a59068a1918368" sha1="b60d4244f054adf98de17b461fdfbdcbc3c29668"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 11).bin" size="1935696" crc="416b3c1b" md5="71ba2d2dc23c2404abff8bb86262e9cf" sha1="d4a5034ad1d595685a8a26f55a2a60362f3f177e"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 12).bin" size="24227952" crc="05b4dd1c" md5="d61a7447091ffe9d7493055c3219b374" sha1="b556af74249a936b68a2b4ac926a340d5d7ae96c"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 13).bin" size="1060752" crc="c6606fd0" md5="9dde869d2a562074db777441abccd1f2" sha1="9d5c301ddd97e1efd3358be38e2d8d36ee3aafe1"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 14).bin" size="13648656" crc="0f4ff7b8" md5="4c4eba18e1f3546e8b04dd9c329b594b" sha1="a782a93ded211216864573393735df317e98aab7"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 15).bin" size="1947456" crc="1f9efff2" md5="472376896337a9a7f396691f8ed65069" sha1="73711afb931ab74e4f80312725c65bc40075c642"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 16).bin" size="1404144" crc="32a53f47" md5="b6a823d520dd5fe2b8083ead7458141d" sha1="70d0b796efc44bbe27e72839e83d17ab78bb400a"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 17).bin" size="3455088" crc="1bb2cefe" md5="c487380b30e0388c2fd9e74d537792ad" sha1="a7bcf5c066bba930555ee7315587175582eea24c"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 18).bin" size="2326128" crc="0270145b" md5="ffeed0e5e74b08a828fd08f3059f9292" sha1="ceb1deb34daea6c3018be47b3557fb890ad3adac"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 19).bin" size="2624832" crc="cf1385d8" md5="a38e7e46110d9fca90a53eda977f6c6a" sha1="bccbb88ccc71e7926289fcba1756efd21cc89b0f"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 20).bin" size="1415904" crc="558d39de" md5="77d267c4bb0eb000d3c7f78de957c5cc" sha1="531a444c554722805779e187601adade69606248"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 21).bin" size="1248912" crc="f6fc9c8f" md5="eccf8043bd8318e9f792d202d0b667f5" sha1="d011a3d60b54df6abb598182403135c35ec830af"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 22).bin" size="2121504" crc="8528d9fd" md5="c4b0df95cd94c5f5ab938b7a207482c7" sha1="8e21b76a13ad9bb5b6f0b4bafdb725cb2256954e"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 23).bin" size="2834160" crc="b1a26931" md5="43ec28a55b9744b96fab49e17e4a77bd" sha1="2e8d9e5fe46841e3d242383fb8e8c9d61c2cffaa"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 24).bin" size="2027424" crc="f749032b" md5="ae5bc1655ef321a3ccebb977ecefa230" sha1="b3f30a0587a3191f79c5acaecd306d64fe13c106"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 25).bin" size="1752240" crc="a778f040" md5="11c2ba6eec9dd6b8ad80ce6a6b671fa6" sha1="99baf4dd24f856bcf6db57440c455383975b92f4"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 26).bin" size="1716960" crc="692a0380" md5="0114212e0819aaae75987a9264eb64f7" sha1="a245c82bd67923a5688197ae6f7ce524f0667e45"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 27).bin" size="1467648" crc="01b80637" md5="e59e757ac82066117ea64ea59a65a897" sha1="bbdef900687ce57969c8528358964e8075ab5d15"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 28).bin" size="1281840" crc="190e8184" md5="b0c4b2b5e34e48fa8ad3f843b23df123" sha1="3eeb8e28f7435b4b96e35ac67337265ab3601594"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 29).bin" size="2610720" crc="a5c59491" md5="d4cc40a24337e9936d6b768ff8d3fd4b" sha1="15207a498648ad1e713a9e8e1151c02d9600afaf"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 30).bin" size="1843968" crc="43d2d984" md5="99d1205acf9e559cc3ac756e92b9e415" sha1="a0d1dc70fe1458928cd9cbcdb78ee5fbd927dba2"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 31).bin" size="1620528" crc="0930cd92" md5="36a35033cb43b4cd73752b17e6c7d183" sha1="e8e4055c08411187de9594c96ec818c0db76f9df"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 32).bin" size="2841216" crc="720dedd2" md5="680e41a4e18993fcee3bae0de80f307b" sha1="80457998a2f83a28016ec990e5ff3219f91d7f2f"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 33).bin" size="4045440" crc="959ac52a" md5="6284a807abb7e2caca8441ae0829cd04" sha1="2d164b2d5864bfb60185aa96a4272ebb8292a837"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 34).bin" size="1088976" crc="cfa0969b" md5="3948761c9cd279fa232bc912229b63ec" sha1="4f6f204b1fa363b68543ac5b52e0dd506fd4d8d1"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 35).bin" size="1778112" crc="a36f49b4" md5="cfb1f5e2f0ab070ef3410970e1442f72" sha1="067cc9eb9786b0cfca56376d083d4e388d199730"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 36).bin" size="1237152" crc="29f974b3" md5="5bed2ec69ffac27ed561a4031728b066" sha1="b2167fdaf87fc7c73586920b424508a4bcf11eb9"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 37).bin" size="2312016" crc="e51fe842" md5="36f7a750e3e51e3d711005df41c54228" sha1="d2930d7abd5cbb2fc37d6bb1d4c40f8806f6431d"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 38).bin" size="2295552" crc="8e3b4eb7" md5="928d56f453f5d9a71e24425058393843" sha1="fb3b5d4c539c1c4f1856360e33407080d1b739d3"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 39).bin" size="1307712" crc="6e2b1295" md5="c6a7b936d25b4da24cfc1ecde4773c47" sha1="d8daa45bba14837519b8d6c49b3cc6b5653d60c2"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 40).bin" size="1286544" crc="68984612" md5="55f6c77bd5d03b9b489664b36acca6fd" sha1="5e21a56828c36ad82f563810067ff44ebc2cfa10"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 41).bin" size="2914128" crc="937ce75a" md5="b7f4151cb4e9838086148b4336746b0c" sha1="d325fd8ac2587db840eb4dc839c1aa0cd94cb1f8"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 42).bin" size="2862384" crc="14a9a9f4" md5="d9e3692d56f22eb2d7b23d90a9bc6ded" sha1="24ed4ed1f9e255190f364ceef6bd560271fbab2a"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 43).bin" size="1902768" crc="114cc513" md5="09373f4be818695b28b6dc22fc8b8325" sha1="cdb8620de4d0817407ae4c0486fbf1633e8f535a"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 44).bin" size="1427664" crc="a8afb97c" md5="7714c7c9cfcdfa6a91f1358b89412d02" sha1="3be982c0b3ab8f6555765e7ee7990090f7c3f245"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 45).bin" size="1599360" crc="77c65a5d" md5="c94577842b50064639ad44c8dbacc0da" sha1="a3c07097c80049f424a05da0fa41e3e7d110e255"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 46).bin" size="1239504" crc="a946793b" md5="ddbbada404a6b0b18d794e83721462bc" sha1="f5cfce2f8ccbf009d1da6a520b6403b029a62eda"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 47).bin" size="2239104" crc="dc720d83" md5="b3abec8a2b13b39a76d2b1966218f972" sha1="fab743330c01cebe8b3294743572b712c0ab3795"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 48).bin" size="2010960" crc="beac9b6f" md5="f8d2020c94c82f38a62d88ec528fd66d" sha1="168022a7f4698ea76074dbc50361688021a36968"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 49).bin" size="2754192" crc="909f097b" md5="a5a7888ef657c178ce06a0a91f50b51f" sha1="80717060fec8362c2720fa1c29dae4689516e78c"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 50).bin" size="1509984" crc="aa6576ce" md5="4a304ac40647dbdb34c5e917d97a2a4d" sha1="6ef35123e05b4f436b065549f411e401e357be94"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 51).bin" size="1902768" crc="c65eedf4" md5="4fc76de8ae67a76eaf0790b32bd5c7ff" sha1="b97e8c4544ecfd10a009df2f33a9c12f4afbc123"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 52).bin" size="1239504" crc="1bdd67f6" md5="443eb19b40c88a51eb6a4de9204a03c7" sha1="7dd388a09f83f3a1ca250130a51c572a73917e48"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 53).bin" size="1239504" crc="909d83ad" md5="ed85d45025510943669adb26e061513a" sha1="e23d155f83032c695b9d9f92c0a3f35ad6de4862"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 54).bin" size="1237152" crc="4385d74e" md5="1c0d3730b65ec6ce4ad3923019ea5023" sha1="4872063ee5a416a4599137f02916a4fdf3b02d1d"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 55).bin" size="1239504" crc="f532f371" md5="acb798ea5a9b00d1fdd5293d0221c620" sha1="0a6e1bf4f2d8cc7541dac8f6399e82c39bfff84e"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 56).bin" size="1239504" crc="62ddb128" md5="f5aac70466088f9e84199958f06e837d" sha1="e8c9944ba365d50b6fdac9927a09b0d716732c18"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 57).bin" size="1237152" crc="c9406cac" md5="10b7255fd5ae3440501a17e7423701f2" sha1="1e9393e352d5cece0a06374ea43f6100246b6426"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 58).bin" size="1237152" crc="f98b3af9" md5="9775e1168c9389d5f6817accbc1c4bfa" sha1="6daabf6337f34ea8f80d446be82fbccd880458f2"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 59).bin" size="1253616" crc="767cb042" md5="76005e134931c54400329f5c75366c52" sha1="ffd8f3052aeee4ea5d703422c0104a7ea2d7b103"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 60).bin" size="1246560" crc="9daa6874" md5="0278aaf4f792fa520f3e29a97c6c77ba" sha1="b005ac9d7e20d653dbf3cd15631c40da21ae315f"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 61).bin" size="1258320" crc="1ee95a07" md5="b53d4cb4174b1dc2b3eaccfe226c75ad" sha1="2f2af835248184014efba6e82d32fad8aa4ea5e0"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 62).bin" size="1237152" crc="643a0b9d" md5="7423f9753566de3cf7228c86d76db116" sha1="986f55c84b9faf4341e9c782824d20db7acaac00"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 63).bin" size="1251264" crc="4e6507e3" md5="0a88b82955a30bc24284d6dca33b582b" sha1="28cb1ed130f53a1e99950be41a6baffbd73ea4d1"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 64).bin" size="1239504" crc="b08a36b1" md5="ce7794ae66080a1006e432e903be05dc" sha1="56a0dee3945036d6c5253eb2ef06f627a1a218bd"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 65).bin" size="1237152" crc="4b9707f0" md5="8db88d8db1b94754c86f8ef7d9673c95" sha1="fdbdc097c724dceee0bae4bd5bf6a0b18c11b35e"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 66).bin" size="1237152" crc="7b26d8b2" md5="c9817f86de7a2988eb5f530aad1ea39b" sha1="b9e9f82409304e9951ac219a5f47e25aa565c37a"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 67).bin" size="1244208" crc="b05f8273" md5="10c76596f45b7df1b68b4b089dcd864c" sha1="84ba7664626a78d7bf162a5d74c50c6a7e4b60e7"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 68).bin" size="1251264" crc="2748fd84" md5="56ff52d0c0466e6899bbb21234f4cf30" sha1="1fd2e0209dac2d5185066e6e6b11bb967b8537d1"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 69).bin" size="1241856" crc="1a9f4389" md5="72ad7fc07e4bde3866fa68bfb0982072" sha1="c5b86e8435b02e4e43d6864af54cb4405b49dfcf"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 70).bin" size="1237152" crc="389d259a" md5="11fa89c7fbc90e7f00f08562df608ce4" sha1="761ad51bd2063a0330ca259c17cf5a6902f90c76"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 71).bin" size="1244208" crc="9f02b07a" md5="85a3abc884d286dfdfa35228e25580a4" sha1="118e81abb678400819f59658824a97512cbf69c9"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 72).bin" size="1237152" crc="3897017f" md5="e4d54ff18e182c84717f61e17118fe22" sha1="54c7aa765c9047c64a3231acbae8d8e3ef28b9bd"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 73).bin" size="1241856" crc="cc3fdc8c" md5="af236c8bed44c9f00089acf8107e4caa" sha1="5758e28b78208506e5d4e2f310890f2d8ed9ffd5"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 74).bin" size="1237152" crc="0c222414" md5="1c68966db266002eb3397189eb082817" sha1="a5df8d423a9a3b3b9ab2d43b6527b9fbeb50ee4c"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 75).bin" size="1248912" crc="e7f0baa8" md5="4be8153ca893635053dd5d99e9ac8204" sha1="1fa8ecc3497426027fccfbddb1e2772e6001e150"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 76).bin" size="1237152" crc="bfaf5487" md5="1903a44373bac1b744a83c9ceebdc351" sha1="92fe20957e5f8c552adf5e50caf742d76959e164"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 77).bin" size="1246560" crc="8074d52e" md5="5083d9e3aad009f7d96c1802dbb7c175" sha1="9c272a32586b69d9ea1bcc41cb6a47aeeb4d5673"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 78).bin" size="1239504" crc="731cd511" md5="eb6d129e9cf8443a6ff0046eaaacbef2" sha1="d9e2c1680068b6586c7a59733bfd1dfd0b2a5729"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 79).bin" size="1244208" crc="0cb30815" md5="789e804a2114fac0b1c6f4fb3dd561d0" sha1="ad1d46012277622214f0b9a1f1e8395b108d41c3"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 80).bin" size="1265376" crc="c956efe2" md5="f190f3bf6788d582cddc9fa7b1c12402" sha1="5c1c4f2e12211b1af7dcbc2707ec1a81a6bbdbd5"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 81).bin" size="1251264" crc="e425a67f" md5="ff85efc7291d5a45620cbac5de1c4bdb" sha1="3091203cadf57212ceab302b6051ab68c8bd7de6"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 82).bin" size="1237152" crc="d4ccd396" md5="adfb8b1c8b961f0702157888af4d016f" sha1="914b1bad8868a537f41c943a384f635241769084"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 83).bin" size="1246560" crc="17094e26" md5="7d9381346e039ef0af47b43502763797" sha1="02c24828dff2fe675d84712e0531c395455bba98"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 84).bin" size="1239504" crc="a920db48" md5="e491cb1485d8f7953662213cfe524fb1" sha1="ee83283db774fa27a8ed15d203e16db023b72995"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 85).bin" size="1237152" crc="3590edc6" md5="2caef6cd581a2d14a9e9b16b79a03376" sha1="0b47d3c6b53e2d523cf496eca74a9ac2b72d15da"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 86).bin" size="1237152" crc="48bc3f4e" md5="3b7f0eb428356681a858ac951757cd45" sha1="50259dbcf0f40ce15f6ba73decbc12c5f226e74c"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 87).bin" size="1237152" crc="c7d87e27" md5="6a4c6fd8a259254689ef1e32da425974" sha1="1daf017f47a0098d633d601766d4d5f18ed742c9"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA) (Track 88).bin" size="32356464" crc="bb550936" md5="952d15640b57c777f98881d396c811b9" sha1="17eb815534b854c7476ed098571ee8d74c6554a5"/>
+		<rom name="Fisher-Price Rescue Heroes - Molten Menace (USA).cue" size="12566" crc="1e39755a" md5="125ad6847f337319ff6977551d149b42" sha1="4c0489b2a6607bbff7a5bd6b37806dc0221dfc42"/>
 	</game>
 	<game name="Fisherman's Bait - A Bass Challenge (USA)">
 		<category>Games</category>
@@ -12735,40 +12785,6 @@
 		<rom name="Rayman Brain Games (USA) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
 		<rom name="Rayman Brain Games (USA).cue" size="1410" crc="0eea19d7" md5="21b552e5e9fd885fa2374f774eb0f621" sha1="c2fa59cc0c34ce9e697d29289c4fc43f7b854ef6"/>
 	</game>
-	<game name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It)">
-		<category>Games</category>
-		<description>Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It)</description>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 01).bin" size="495524064" crc="a73c2f65" md5="c7c511ad1c6d227760db72dc5ae77f12" sha1="dd6500dc3bb292973079a6bbe08000c8cba2f738"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 02).bin" size="22040592" crc="5c4fd454" md5="62d798a43e085fef0a52b64168b0626e" sha1="ec2057ad356994e9459e07e325d102618440c215"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 03).bin" size="22360464" crc="d93ab8ee" md5="e834feb1255729b61e5c4a2555618fff" sha1="14f459007ea63572e2cfce449e10a2c29c2a0146"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 04).bin" size="22558032" crc="c2c9ad27" md5="a35b3c9bc65ef6da16cd51786dbc3f60" sha1="b7f3029dd8b9ee6e8f530afaa62cd4b74ee82ea4"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 05).bin" size="21643104" crc="b1f68388" md5="b8a9633a4731a0fbfbb7ddc8749b3b76" sha1="06b661c0eec9865576de5f88184730cb071db7c8"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 06).bin" size="22593312" crc="047803fd" md5="2d66de014eff26bbbe74232ad42a5999" sha1="2c4014ba366df34ea30878b45a6732599131331a"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 07).bin" size="21520800" crc="6e14705f" md5="55d66b48b51e6404cda4295f370c5fc7" sha1="921272a835ae87d316b805026962c9e65bc2a910"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 08).bin" size="21372624" crc="706da7ba" md5="1d370ec5f472404d781f7ba15c3151e0" sha1="3a2e104a96f49cf496c149ec6740f068c10ea96d"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 09).bin" size="25552128" crc="7eba7c28" md5="3fdb4a7f154aedbf6f2cf43c942ee573" sha1="d01304dc939dc1ff8776ab22323cf745378449f0"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 10).bin" size="1865136" crc="cfbd00be" md5="4829766c2377fdbc621f71b37df544d7" sha1="912eb7ab3cca229a5632db635462239ccb4d3d17"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 11).bin" size="10569888" crc="99405dc2" md5="b6c6db6b840a425134c1634d7cc48bd9" sha1="47a45d4b83791b05a018ea59e35ebbdc8359a49e"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
-		<rom name="Rayman Junior - Level 2 (Europe) (En,Fr,De,Es,It).cue" size="1710" crc="5b2012d6" md5="78f2ffa1e7a8e7edfbd422fb9088a06f" sha1="f86f7323432983d337a68ca050948f3c88609ab2"/>
-	</game>
-	<game name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It)">
-		<category>Games</category>
-		<description>Rayman Junior - Level 3 (Europe) (En,Fr,Es,It)</description>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 01).bin" size="396504864" crc="76a411b4" md5="891e4c9069d6d448ed22be88076dce78" sha1="d35e38deca68f31ca4499d365942bbebf543e396"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 02).bin" size="22040592" crc="5c4fd454" md5="62d798a43e085fef0a52b64168b0626e" sha1="ec2057ad356994e9459e07e325d102618440c215"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 03).bin" size="22360464" crc="d93ab8ee" md5="e834feb1255729b61e5c4a2555618fff" sha1="14f459007ea63572e2cfce449e10a2c29c2a0146"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 04).bin" size="22558032" crc="c2c9ad27" md5="a35b3c9bc65ef6da16cd51786dbc3f60" sha1="b7f3029dd8b9ee6e8f530afaa62cd4b74ee82ea4"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 05).bin" size="21643104" crc="b1f68388" md5="b8a9633a4731a0fbfbb7ddc8749b3b76" sha1="06b661c0eec9865576de5f88184730cb071db7c8"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 06).bin" size="22593312" crc="047803fd" md5="2d66de014eff26bbbe74232ad42a5999" sha1="2c4014ba366df34ea30878b45a6732599131331a"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 07).bin" size="21520800" crc="6e14705f" md5="55d66b48b51e6404cda4295f370c5fc7" sha1="921272a835ae87d316b805026962c9e65bc2a910"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 08).bin" size="21372624" crc="706da7ba" md5="1d370ec5f472404d781f7ba15c3151e0" sha1="3a2e104a96f49cf496c149ec6740f068c10ea96d"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 09).bin" size="25552128" crc="7eba7c28" md5="3fdb4a7f154aedbf6f2cf43c942ee573" sha1="d01304dc939dc1ff8776ab22323cf745378449f0"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 10).bin" size="1865136" crc="cfbd00be" md5="4829766c2377fdbc621f71b37df544d7" sha1="912eb7ab3cca229a5632db635462239ccb4d3d17"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 11).bin" size="10569888" crc="99405dc2" md5="b6c6db6b840a425134c1634d7cc48bd9" sha1="47a45d4b83791b05a018ea59e35ebbdc8359a49e"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It) (Track 12).bin" size="32528160" crc="255672e3" md5="12fac10373bb4593f18118278f5483a6" sha1="0fce5c32cac2b75843f2c2f263755bca1224daf0"/>
-		<rom name="Rayman Junior - Level 3 (Europe) (En,Fr,Es,It).cue" size="1674" crc="bdc24b90" md5="275832e2244874580bfe5ff21f3cb539" sha1="33ad6dae8503d1d1e3875d9a4df46d4fe659bd55"/>
-	</game>
 	<game name="Rayman Rush (USA)">
 		<category>Games</category>
 		<description>Rayman Rush (USA)</description>
@@ -12932,99 +12948,6 @@
 		<rom name="Rescue Copter (USA) (Track 09).bin" size="38102400" crc="55fcd79f" md5="84b5feab51f7a9858663407f5def4c95" sha1="990a64c1fab39c402da508111e20dad74bada94c"/>
 		<rom name="Rescue Copter (USA) (Track 10).bin" size="38102400" crc="55fcd79f" md5="84b5feab51f7a9858663407f5def4c95" sha1="990a64c1fab39c402da508111e20dad74bada94c"/>
 		<rom name="Rescue Copter (USA).cue" size="1122" crc="922883b3" md5="c60de0c51e48b4691af695d8a9f665d0" sha1="0559fdc5778d8a9f17e4c10f774e56a5750fd14e"/>
-	</game>
-	<game name="Rescue Heroes - Molten Menace (USA)">
-		<category>Games</category>
-		<description>Rescue Heroes - Molten Menace (USA)</description>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 01).bin" size="125893152" crc="193b57c3" md5="01fe417695533bcb091a527f83d3c59a" sha1="43e5b52e82040018030e93a208b93a5eac7b2ead"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 02).bin" size="9963072" crc="8dc2afba" md5="4a7560b56c5c2a5b3b1b46d44cf7a550" sha1="beb43b5e356ef67370643558d42dc28fd3053b0b"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 03).bin" size="1225392" crc="10faf94b" md5="11507114aae1de264a2a5e750529cfbc" sha1="a8b9ca2c0d38375fe7da6d0184d41257c74ac969"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 04).bin" size="25509792" crc="b7c0d7cc" md5="e2378ee83be3389599bcdb3e3d2eecd1" sha1="8e69ca9a522ca6f5e7a75e2bc78d6e824b1d600a"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 05).bin" size="1488816" crc="44c13556" md5="3137508f77da2a80ff9342c89720bd97" sha1="b0b511977108b25b2d78832fe802b8d76389c662"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 06).bin" size="28087584" crc="5ed52cd9" md5="f9b1219147d0894dd0544d4a9fac1c48" sha1="4ab28daaf213936ea36822135a11bf72c536e417"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 07).bin" size="1201872" crc="a0dc4c0f" md5="fe6b48ec5b553d7b21786ff08119fd8c" sha1="bb72f6e544f5cdd8b0574d7ef6c5ed1cd3bf0b35"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 08).bin" size="26869248" crc="b3824ac7" md5="53dac0ef91f9fb400c88ef520d7de044" sha1="b097e2e372cfc0a4137912cb9dee2ed486f2e8d8"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 09).bin" size="1168944" crc="67507d09" md5="e3801fec760f488d77c5fae83d262e0b" sha1="834a62675384039f49ccd6e304f681e44f324e0f"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 10).bin" size="15462048" crc="f632b706" md5="0d13dbfb3c9d7d9aa7a59068a1918368" sha1="b60d4244f054adf98de17b461fdfbdcbc3c29668"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 11).bin" size="1935696" crc="416b3c1b" md5="71ba2d2dc23c2404abff8bb86262e9cf" sha1="d4a5034ad1d595685a8a26f55a2a60362f3f177e"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 12).bin" size="24227952" crc="05b4dd1c" md5="d61a7447091ffe9d7493055c3219b374" sha1="b556af74249a936b68a2b4ac926a340d5d7ae96c"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 13).bin" size="1060752" crc="c6606fd0" md5="9dde869d2a562074db777441abccd1f2" sha1="9d5c301ddd97e1efd3358be38e2d8d36ee3aafe1"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 14).bin" size="13648656" crc="0f4ff7b8" md5="4c4eba18e1f3546e8b04dd9c329b594b" sha1="a782a93ded211216864573393735df317e98aab7"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 15).bin" size="1947456" crc="1f9efff2" md5="472376896337a9a7f396691f8ed65069" sha1="73711afb931ab74e4f80312725c65bc40075c642"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 16).bin" size="1404144" crc="32a53f47" md5="b6a823d520dd5fe2b8083ead7458141d" sha1="70d0b796efc44bbe27e72839e83d17ab78bb400a"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 17).bin" size="3455088" crc="1bb2cefe" md5="c487380b30e0388c2fd9e74d537792ad" sha1="a7bcf5c066bba930555ee7315587175582eea24c"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 18).bin" size="2326128" crc="0270145b" md5="ffeed0e5e74b08a828fd08f3059f9292" sha1="ceb1deb34daea6c3018be47b3557fb890ad3adac"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 19).bin" size="2624832" crc="cf1385d8" md5="a38e7e46110d9fca90a53eda977f6c6a" sha1="bccbb88ccc71e7926289fcba1756efd21cc89b0f"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 20).bin" size="1415904" crc="558d39de" md5="77d267c4bb0eb000d3c7f78de957c5cc" sha1="531a444c554722805779e187601adade69606248"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 21).bin" size="1248912" crc="f6fc9c8f" md5="eccf8043bd8318e9f792d202d0b667f5" sha1="d011a3d60b54df6abb598182403135c35ec830af"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 22).bin" size="2121504" crc="8528d9fd" md5="c4b0df95cd94c5f5ab938b7a207482c7" sha1="8e21b76a13ad9bb5b6f0b4bafdb725cb2256954e"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 23).bin" size="2834160" crc="b1a26931" md5="43ec28a55b9744b96fab49e17e4a77bd" sha1="2e8d9e5fe46841e3d242383fb8e8c9d61c2cffaa"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 24).bin" size="2027424" crc="f749032b" md5="ae5bc1655ef321a3ccebb977ecefa230" sha1="b3f30a0587a3191f79c5acaecd306d64fe13c106"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 25).bin" size="1752240" crc="a778f040" md5="11c2ba6eec9dd6b8ad80ce6a6b671fa6" sha1="99baf4dd24f856bcf6db57440c455383975b92f4"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 26).bin" size="1716960" crc="692a0380" md5="0114212e0819aaae75987a9264eb64f7" sha1="a245c82bd67923a5688197ae6f7ce524f0667e45"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 27).bin" size="1467648" crc="01b80637" md5="e59e757ac82066117ea64ea59a65a897" sha1="bbdef900687ce57969c8528358964e8075ab5d15"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 28).bin" size="1281840" crc="190e8184" md5="b0c4b2b5e34e48fa8ad3f843b23df123" sha1="3eeb8e28f7435b4b96e35ac67337265ab3601594"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 29).bin" size="2610720" crc="a5c59491" md5="d4cc40a24337e9936d6b768ff8d3fd4b" sha1="15207a498648ad1e713a9e8e1151c02d9600afaf"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 30).bin" size="1843968" crc="43d2d984" md5="99d1205acf9e559cc3ac756e92b9e415" sha1="a0d1dc70fe1458928cd9cbcdb78ee5fbd927dba2"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 31).bin" size="1620528" crc="0930cd92" md5="36a35033cb43b4cd73752b17e6c7d183" sha1="e8e4055c08411187de9594c96ec818c0db76f9df"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 32).bin" size="2841216" crc="720dedd2" md5="680e41a4e18993fcee3bae0de80f307b" sha1="80457998a2f83a28016ec990e5ff3219f91d7f2f"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 33).bin" size="4045440" crc="959ac52a" md5="6284a807abb7e2caca8441ae0829cd04" sha1="2d164b2d5864bfb60185aa96a4272ebb8292a837"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 34).bin" size="1088976" crc="cfa0969b" md5="3948761c9cd279fa232bc912229b63ec" sha1="4f6f204b1fa363b68543ac5b52e0dd506fd4d8d1"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 35).bin" size="1778112" crc="a36f49b4" md5="cfb1f5e2f0ab070ef3410970e1442f72" sha1="067cc9eb9786b0cfca56376d083d4e388d199730"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 36).bin" size="1237152" crc="29f974b3" md5="5bed2ec69ffac27ed561a4031728b066" sha1="b2167fdaf87fc7c73586920b424508a4bcf11eb9"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 37).bin" size="2312016" crc="e51fe842" md5="36f7a750e3e51e3d711005df41c54228" sha1="d2930d7abd5cbb2fc37d6bb1d4c40f8806f6431d"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 38).bin" size="2295552" crc="8e3b4eb7" md5="928d56f453f5d9a71e24425058393843" sha1="fb3b5d4c539c1c4f1856360e33407080d1b739d3"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 39).bin" size="1307712" crc="6e2b1295" md5="c6a7b936d25b4da24cfc1ecde4773c47" sha1="d8daa45bba14837519b8d6c49b3cc6b5653d60c2"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 40).bin" size="1286544" crc="68984612" md5="55f6c77bd5d03b9b489664b36acca6fd" sha1="5e21a56828c36ad82f563810067ff44ebc2cfa10"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 41).bin" size="2914128" crc="937ce75a" md5="b7f4151cb4e9838086148b4336746b0c" sha1="d325fd8ac2587db840eb4dc839c1aa0cd94cb1f8"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 42).bin" size="2862384" crc="14a9a9f4" md5="d9e3692d56f22eb2d7b23d90a9bc6ded" sha1="24ed4ed1f9e255190f364ceef6bd560271fbab2a"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 43).bin" size="1902768" crc="114cc513" md5="09373f4be818695b28b6dc22fc8b8325" sha1="cdb8620de4d0817407ae4c0486fbf1633e8f535a"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 44).bin" size="1427664" crc="a8afb97c" md5="7714c7c9cfcdfa6a91f1358b89412d02" sha1="3be982c0b3ab8f6555765e7ee7990090f7c3f245"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 45).bin" size="1599360" crc="77c65a5d" md5="c94577842b50064639ad44c8dbacc0da" sha1="a3c07097c80049f424a05da0fa41e3e7d110e255"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 46).bin" size="1239504" crc="a946793b" md5="ddbbada404a6b0b18d794e83721462bc" sha1="f5cfce2f8ccbf009d1da6a520b6403b029a62eda"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 47).bin" size="2239104" crc="dc720d83" md5="b3abec8a2b13b39a76d2b1966218f972" sha1="fab743330c01cebe8b3294743572b712c0ab3795"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 48).bin" size="2010960" crc="beac9b6f" md5="f8d2020c94c82f38a62d88ec528fd66d" sha1="168022a7f4698ea76074dbc50361688021a36968"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 49).bin" size="2754192" crc="909f097b" md5="a5a7888ef657c178ce06a0a91f50b51f" sha1="80717060fec8362c2720fa1c29dae4689516e78c"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 50).bin" size="1509984" crc="aa6576ce" md5="4a304ac40647dbdb34c5e917d97a2a4d" sha1="6ef35123e05b4f436b065549f411e401e357be94"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 51).bin" size="1902768" crc="c65eedf4" md5="4fc76de8ae67a76eaf0790b32bd5c7ff" sha1="b97e8c4544ecfd10a009df2f33a9c12f4afbc123"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 52).bin" size="1239504" crc="1bdd67f6" md5="443eb19b40c88a51eb6a4de9204a03c7" sha1="7dd388a09f83f3a1ca250130a51c572a73917e48"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 53).bin" size="1239504" crc="909d83ad" md5="ed85d45025510943669adb26e061513a" sha1="e23d155f83032c695b9d9f92c0a3f35ad6de4862"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 54).bin" size="1237152" crc="4385d74e" md5="1c0d3730b65ec6ce4ad3923019ea5023" sha1="4872063ee5a416a4599137f02916a4fdf3b02d1d"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 55).bin" size="1239504" crc="f532f371" md5="acb798ea5a9b00d1fdd5293d0221c620" sha1="0a6e1bf4f2d8cc7541dac8f6399e82c39bfff84e"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 56).bin" size="1239504" crc="62ddb128" md5="f5aac70466088f9e84199958f06e837d" sha1="e8c9944ba365d50b6fdac9927a09b0d716732c18"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 57).bin" size="1237152" crc="c9406cac" md5="10b7255fd5ae3440501a17e7423701f2" sha1="1e9393e352d5cece0a06374ea43f6100246b6426"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 58).bin" size="1237152" crc="f98b3af9" md5="9775e1168c9389d5f6817accbc1c4bfa" sha1="6daabf6337f34ea8f80d446be82fbccd880458f2"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 59).bin" size="1253616" crc="767cb042" md5="76005e134931c54400329f5c75366c52" sha1="ffd8f3052aeee4ea5d703422c0104a7ea2d7b103"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 60).bin" size="1246560" crc="9daa6874" md5="0278aaf4f792fa520f3e29a97c6c77ba" sha1="b005ac9d7e20d653dbf3cd15631c40da21ae315f"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 61).bin" size="1258320" crc="1ee95a07" md5="b53d4cb4174b1dc2b3eaccfe226c75ad" sha1="2f2af835248184014efba6e82d32fad8aa4ea5e0"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 62).bin" size="1237152" crc="643a0b9d" md5="7423f9753566de3cf7228c86d76db116" sha1="986f55c84b9faf4341e9c782824d20db7acaac00"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 63).bin" size="1251264" crc="4e6507e3" md5="0a88b82955a30bc24284d6dca33b582b" sha1="28cb1ed130f53a1e99950be41a6baffbd73ea4d1"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 64).bin" size="1239504" crc="b08a36b1" md5="ce7794ae66080a1006e432e903be05dc" sha1="56a0dee3945036d6c5253eb2ef06f627a1a218bd"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 65).bin" size="1237152" crc="4b9707f0" md5="8db88d8db1b94754c86f8ef7d9673c95" sha1="fdbdc097c724dceee0bae4bd5bf6a0b18c11b35e"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 66).bin" size="1237152" crc="7b26d8b2" md5="c9817f86de7a2988eb5f530aad1ea39b" sha1="b9e9f82409304e9951ac219a5f47e25aa565c37a"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 67).bin" size="1244208" crc="b05f8273" md5="10c76596f45b7df1b68b4b089dcd864c" sha1="84ba7664626a78d7bf162a5d74c50c6a7e4b60e7"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 68).bin" size="1251264" crc="2748fd84" md5="56ff52d0c0466e6899bbb21234f4cf30" sha1="1fd2e0209dac2d5185066e6e6b11bb967b8537d1"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 69).bin" size="1241856" crc="1a9f4389" md5="72ad7fc07e4bde3866fa68bfb0982072" sha1="c5b86e8435b02e4e43d6864af54cb4405b49dfcf"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 70).bin" size="1237152" crc="389d259a" md5="11fa89c7fbc90e7f00f08562df608ce4" sha1="761ad51bd2063a0330ca259c17cf5a6902f90c76"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 71).bin" size="1244208" crc="9f02b07a" md5="85a3abc884d286dfdfa35228e25580a4" sha1="118e81abb678400819f59658824a97512cbf69c9"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 72).bin" size="1237152" crc="3897017f" md5="e4d54ff18e182c84717f61e17118fe22" sha1="54c7aa765c9047c64a3231acbae8d8e3ef28b9bd"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 73).bin" size="1241856" crc="cc3fdc8c" md5="af236c8bed44c9f00089acf8107e4caa" sha1="5758e28b78208506e5d4e2f310890f2d8ed9ffd5"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 74).bin" size="1237152" crc="0c222414" md5="1c68966db266002eb3397189eb082817" sha1="a5df8d423a9a3b3b9ab2d43b6527b9fbeb50ee4c"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 75).bin" size="1248912" crc="e7f0baa8" md5="4be8153ca893635053dd5d99e9ac8204" sha1="1fa8ecc3497426027fccfbddb1e2772e6001e150"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 76).bin" size="1237152" crc="bfaf5487" md5="1903a44373bac1b744a83c9ceebdc351" sha1="92fe20957e5f8c552adf5e50caf742d76959e164"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 77).bin" size="1246560" crc="8074d52e" md5="5083d9e3aad009f7d96c1802dbb7c175" sha1="9c272a32586b69d9ea1bcc41cb6a47aeeb4d5673"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 78).bin" size="1239504" crc="731cd511" md5="eb6d129e9cf8443a6ff0046eaaacbef2" sha1="d9e2c1680068b6586c7a59733bfd1dfd0b2a5729"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 79).bin" size="1244208" crc="0cb30815" md5="789e804a2114fac0b1c6f4fb3dd561d0" sha1="ad1d46012277622214f0b9a1f1e8395b108d41c3"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 80).bin" size="1265376" crc="c956efe2" md5="f190f3bf6788d582cddc9fa7b1c12402" sha1="5c1c4f2e12211b1af7dcbc2707ec1a81a6bbdbd5"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 81).bin" size="1251264" crc="e425a67f" md5="ff85efc7291d5a45620cbac5de1c4bdb" sha1="3091203cadf57212ceab302b6051ab68c8bd7de6"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 82).bin" size="1237152" crc="d4ccd396" md5="adfb8b1c8b961f0702157888af4d016f" sha1="914b1bad8868a537f41c943a384f635241769084"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 83).bin" size="1246560" crc="17094e26" md5="7d9381346e039ef0af47b43502763797" sha1="02c24828dff2fe675d84712e0531c395455bba98"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 84).bin" size="1239504" crc="a920db48" md5="e491cb1485d8f7953662213cfe524fb1" sha1="ee83283db774fa27a8ed15d203e16db023b72995"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 85).bin" size="1237152" crc="3590edc6" md5="2caef6cd581a2d14a9e9b16b79a03376" sha1="0b47d3c6b53e2d523cf496eca74a9ac2b72d15da"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 86).bin" size="1237152" crc="48bc3f4e" md5="3b7f0eb428356681a858ac951757cd45" sha1="50259dbcf0f40ce15f6ba73decbc12c5f226e74c"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 87).bin" size="1237152" crc="c7d87e27" md5="6a4c6fd8a259254689ef1e32da425974" sha1="1daf017f47a0098d633d601766d4d5f18ed742c9"/>
-		<rom name="Rescue Heroes - Molten Menace (USA) (Track 88).bin" size="32356464" crc="bb550936" md5="952d15640b57c777f98881d396c811b9" sha1="17eb815534b854c7476ed098571ee8d74c6554a5"/>
-		<rom name="Rescue Heroes - Molten Menace (USA).cue" size="11422" crc="68305368" md5="abec25f8b561b41c94519fa68a3e6adb" sha1="3e5e698c34fd29b56842e9d524ffee2562e934af"/>
 	</game>
 	<game name="Rescue Shot (Europe) (En,Fr,De,Es,It)">
 		<category>Games</category>
