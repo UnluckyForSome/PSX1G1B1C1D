@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sony - PlayStation (Retool)</name>
-		<description>Sony - PlayStation (1,789) (-l) [-aAbBcdDefkmMopPruv] (2026-04-22 02-06-04) (Retool)</description>
-		<version>2026-04-22 02-06-04</version>
-		<date>2026-04-27 01-30-05</date>
+		<description>Sony - PlayStation (1,788) (-l) [-aAbBcdDefkmMopPruv] (2026-06-15 03-33-12) (Retool)</description>
+		<version>2026-06-15 03-33-12</version>
+		<date>2026-06-15 02-36-07</date>
 		<author>redump.org</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>http://redump.org/</url>
@@ -5544,12 +5544,6 @@
 		<rom name="Fighter Maker (USA) (Track 2).bin" size="480212544" crc="37e1f393" md5="54550879a29fba580194967a2ba863fb" sha1="d822b15b522bc882479109d41c62b45b83e10b26"/>
 		<rom name="Fighter Maker (USA).cue" size="208" crc="e7274407" md5="f27f00b6b40a391d965cfd4122a1ee66" sha1="2d2730aa4914f52899f2bdb74467c30865d0a0f5"/>
 	</game>
-	<game name="Fighters' Impact (Japan)">
-		<category>Games</category>
-		<description>Fighters' Impact (Japan)</description>
-		<rom name="Fighters' Impact (Japan).bin" size="467956272" crc="5127002f" md5="93f39d5ede4405193f14fe0667a65d4f" sha1="21491f356cdbe4753a0d2b7514862dd40af1b38f"/>
-		<rom name="Fighters' Impact (Japan).cue" size="90" crc="819ec24f" md5="5bd87866c04c784f292575c26ee8610b" sha1="58c0387496ff3e8835730914f44ae8f28e4ce229"/>
-	</game>
 	<game name="Fighting Eyes (Japan)">
 		<category>Games</category>
 		<description>Fighting Eyes (Japan)</description>
@@ -8915,11 +8909,11 @@
 		<rom name="Madden NFL 2001 (USA).bin" size="377321952" crc="cb711549" md5="fcf091a93ba66a7b80e9f8659c73788a" sha1="aacf651f4e22577e90d73082cc9ad21f19b49724"/>
 		<rom name="Madden NFL 2001 (USA).cue" size="87" crc="418a54fd" md5="64132bbed442f472eed02d6233f9cfcd" sha1="3630d4f54ed489771e24e9841f2f72be1c24c1b0"/>
 	</game>
-	<game name="Madden NFL 2002 (USA)">
+	<game name="Madden NFL 2002 (USA, Canada)">
 		<category>Games</category>
-		<description>Madden NFL 2002 (USA)</description>
-		<rom name="Madden NFL 2002 (USA).bin" size="404856816" crc="1ad0b3d8" md5="1100b9032fe15433507c5acd5bb9d28a" sha1="199c9440a838bae41c2f2c20c962ab86a2966343"/>
-		<rom name="Madden NFL 2002 (USA).cue" size="87" crc="0d397e54" md5="4bfe27448abe6c99f441ba9ae6dbee16" sha1="e2d85ea3d6153ef2e8754e993dfd08c1b9237088"/>
+		<description>Madden NFL 2002 (USA, Canada)</description>
+		<rom name="Madden NFL 2002 (USA, Canada).bin" size="404856816" crc="1ad0b3d8" md5="1100b9032fe15433507c5acd5bb9d28a" sha1="199c9440a838bae41c2f2c20c962ab86a2966343"/>
+		<rom name="Madden NFL 2002 (USA, Canada).cue" size="95" crc="06883d4e" md5="417fa7d29170e50e57265904a0ad52de" sha1="c9e82d0ac3adce41663102a6972f13d559bf0e6a"/>
 	</game>
 	<game name="Madden NFL 2003 (USA)">
 		<category>Games</category>
@@ -10124,11 +10118,11 @@
 		<rom name="NASCAR Rumble (USA, Canada).bin" size="261248400" crc="5442f359" md5="6f9c58f84a36c9698de94d7bd5a1278d" sha1="3e43fedad31a67400808e816ed28a52fb6ec0381"/>
 		<rom name="NASCAR Rumble (USA, Canada).cue" size="93" crc="821a9b7c" md5="56829c31ddb8a15ea4e1a0e6f4c28d28" sha1="b56ce8375a896be9c049ee57b22c2a26fb265a2a"/>
 	</game>
-	<game name="NASCAR Thunder 2002 (USA)">
+	<game name="NASCAR Thunder 2002 (USA, Canada)">
 		<category>Games</category>
-		<description>NASCAR Thunder 2002 (USA)</description>
-		<rom name="NASCAR Thunder 2002 (USA).bin" size="224552496" crc="9af3e6c5" md5="7dfd96dfe3aedb3fb642642821bf0e81" sha1="916b002042c9841438878062ab600dcbe85381ac"/>
-		<rom name="NASCAR Thunder 2002 (USA).cue" size="91" crc="8b2bed6f" md5="d431a18be3318fe0e8fac54d7201313a" sha1="2028913cb9f76fb7b906875d8f7e9b13db17e036"/>
+		<description>NASCAR Thunder 2002 (USA, Canada)</description>
+		<rom name="NASCAR Thunder 2002 (USA, Canada).bin" size="224552496" crc="9af3e6c5" md5="7dfd96dfe3aedb3fb642642821bf0e81" sha1="916b002042c9841438878062ab600dcbe85381ac"/>
+		<rom name="NASCAR Thunder 2002 (USA, Canada).cue" size="99" crc="70b7f866" md5="9247daa38935233363c5e580fdeadeac" sha1="9bf9d2b47ad6772db79f777d1e6a930f5c163da3"/>
 	</game>
 	<game name="NASCAR Thunder 2003 (USA)">
 		<category>Games</category>
@@ -10204,11 +10198,11 @@
 		<rom name="NBA Live 2001 (USA).bin" size="543895296" crc="ce134ba7" md5="65a1261c75af05f39d1e854a859c80c5" sha1="9f159bffb4256282635bcfa229c7cd968c2abcab"/>
 		<rom name="NBA Live 2001 (USA).cue" size="85" crc="c41bc879" md5="e30c53f7e3fc58e80f51694c72e95b55" sha1="b69e2d9ed49d90402ca446cd452d9d80b6e8e2cb"/>
 	</game>
-	<game name="NBA Live 2002 (USA)">
+	<game name="NBA Live 2002 (USA, Canada)">
 		<category>Games</category>
-		<description>NBA Live 2002 (USA)</description>
-		<rom name="NBA Live 2002 (USA).bin" size="553044576" crc="0aa28b8e" md5="bd88c415472bc10b2c64327197c3a343" sha1="486088865a9a7114f8456411d68aad117dead424"/>
-		<rom name="NBA Live 2002 (USA).cue" size="85" crc="88a8e2d0" md5="8cf5a82bbcb303654166a2f445880c13" sha1="ebcf6e3db5d6339b21a32f501bcc528853c15bd3"/>
+		<description>NBA Live 2002 (USA, Canada)</description>
+		<rom name="NBA Live 2002 (USA, Canada).bin" size="553044576" crc="0aa28b8e" md5="bd88c415472bc10b2c64327197c3a343" sha1="486088865a9a7114f8456411d68aad117dead424"/>
+		<rom name="NBA Live 2002 (USA, Canada).cue" size="93" crc="56ad5022" md5="20097b82cc9104b5d5a67c10c46bd5b0" sha1="14e38246bd2ad31a4342a77d259c86ad9130f49e"/>
 	</game>
 	<game name="NBA Live 2003 (USA)">
 		<category>Games</category>
@@ -10546,12 +10540,12 @@
 		<rom name="NFL GameDay 99 (USA) (Rev 1) (Track 2).bin" size="13361712" crc="b0ef8b04" md5="25593fed94b66c894ae864e746afd12e" sha1="8ff5d315ca7b0b9ffd9865e9ca8720db35b2db16"/>
 		<rom name="NFL GameDay 99 (USA) (Rev 1).cue" size="226" crc="7669da50" md5="6bb22a803817c537f03d9c8b0899104c" sha1="1dbc608709aaa43e301bd0bcd1ad82da760cc56b"/>
 	</game>
-	<game name="NFL Quarterback Club 97 (USA)">
+	<game name="NFL Quarterback Club '97 (USA)">
 		<category>Games</category>
-		<description>NFL Quarterback Club 97 (USA)</description>
-		<rom name="NFL Quarterback Club 97 (USA) (Track 1).bin" size="103222224" crc="be4bf30c" md5="5768782c7acd1573d5f44d7b8cc1a905" sha1="5c7b9771ac7cced89f856ddab6786c9767c53f2a"/>
-		<rom name="NFL Quarterback Club 97 (USA) (Track 2).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
-		<rom name="NFL Quarterback Club 97 (USA).cue" size="228" crc="6b6bc7da" md5="6f37e0a46df777253aa1518811a4e665" sha1="15671d363d2b431a3b48e83166c2f0837f1a3a18"/>
+		<description>NFL Quarterback Club '97 (USA)</description>
+		<rom name="NFL Quarterback Club '97 (USA) (Track 1).bin" size="103222224" crc="be4bf30c" md5="5768782c7acd1573d5f44d7b8cc1a905" sha1="5c7b9771ac7cced89f856ddab6786c9767c53f2a"/>
+		<rom name="NFL Quarterback Club '97 (USA) (Track 2).bin" size="32163600" crc="9eb22530" md5="88aa16698a904e9841f2279a4e9beb23" sha1="bea344b803475b463195df6fd60834069afe246e"/>
+		<rom name="NFL Quarterback Club '97 (USA).cue" size="230" crc="077418ee" md5="6e5c975c050240ef21ef71fdd5863b36" sha1="928f72c227a1eaca4532883d46300be46008142f"/>
 	</game>
 	<game name="NFL Xtreme (USA)">
 		<category>Games</category>
