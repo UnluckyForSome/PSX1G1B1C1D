@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sony - PlayStation (Retool)</name>
-		<description>Sony - PlayStation (1,789) (-l) [-aAbBcdDefkmMopPruv] (2026-05-17 15-50-21) (Retool)</description>
-		<version>2026-05-17 15-50-21</version>
-		<date>2026-05-18 02-06-52</date>
+		<description>Sony - PlayStation (1,788) (-l) [-aAbBcdDefkmMopPruv] (2026-06-15 11-55-46) (Retool)</description>
+		<version>2026-06-15 11-55-46</version>
+		<date>2026-07-06 02-01-07</date>
 		<author>redump.org</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>http://redump.org/</url>
@@ -5543,12 +5543,6 @@
 		<rom name="Fighter Maker (USA) (Track 1).bin" size="10329984" crc="ba2da5a0" md5="54f2e7417859dc1abb22436c6ca00542" sha1="b0df35fed4493866f9c748dffd1f85a15177e20e"/>
 		<rom name="Fighter Maker (USA) (Track 2).bin" size="480212544" crc="37e1f393" md5="54550879a29fba580194967a2ba863fb" sha1="d822b15b522bc882479109d41c62b45b83e10b26"/>
 		<rom name="Fighter Maker (USA).cue" size="208" crc="e7274407" md5="f27f00b6b40a391d965cfd4122a1ee66" sha1="2d2730aa4914f52899f2bdb74467c30865d0a0f5"/>
-	</game>
-	<game name="Fighters' Impact (Japan)">
-		<category>Games</category>
-		<description>Fighters' Impact (Japan)</description>
-		<rom name="Fighters' Impact (Japan).bin" size="467956272" crc="5127002f" md5="93f39d5ede4405193f14fe0667a65d4f" sha1="21491f356cdbe4753a0d2b7514862dd40af1b38f"/>
-		<rom name="Fighters' Impact (Japan).cue" size="90" crc="819ec24f" md5="5bd87866c04c784f292575c26ee8610b" sha1="58c0387496ff3e8835730914f44ae8f28e4ce229"/>
 	</game>
 	<game name="Fighting Eyes (Japan)">
 		<category>Games</category>
