@@ -8869,6 +8869,7 @@ These titles were removed because the user excluded one or more languages.
 - Nobunaga no Yabou - Bushou Fuuunroku (Japan)
 - Nobunaga no Yabou - Haouden (Japan)
 - Nobunaga no Yabou - Reppuuden (Japan)
+- Nobunaga no Yabou - Reppuuden (Japan) (Rev 1)
 - Nobunaga no Yabou - Reppuuden with Power-Up Kit (Japan)
 - Nobunaga no Yabou - Returns (Japan)
 - Nobunaga no Yabou - Sengoku Gunyuuden (Japan)
