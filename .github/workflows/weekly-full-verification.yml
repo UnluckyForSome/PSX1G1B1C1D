@@ -35,6 +35,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install alive-progress darkdetect lxml psutil pyside6 strictyaml validators requests Pillow
 
+    - name: Fetch Retool (pinned)
+      run: |
+        git clone --depth 1 --branch v2.4.9 https://github.com/unexpectedpanda/retool.git tooling/retool
+
     - name: Run full verification
       run: |
         python verification/scripts/full-verification.py
