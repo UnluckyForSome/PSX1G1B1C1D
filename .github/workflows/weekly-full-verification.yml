@@ -46,8 +46,10 @@ jobs:
     - name: Check for changes
       id: check-changes
       run: |
-        # Check for both modified tracked files and new untracked files
-        if git diff --quiet COMPLETION.md verification/ && [ -z "$(git ls-files --others --exclude-standard verification/)" ]; then
+        # The script writes COMPLETION.md, the README's progress bars and verification/
+        # (modified or new files; tooling/ is git-ignored)
+        git status --porcelain -- COMPLETION.md README.md verification/
+        if [ -z "$(git status --porcelain -- COMPLETION.md README.md verification/)" ]; then
           echo "changed=false" >> $GITHUB_OUTPUT
         else
           echo "changed=true" >> $GITHUB_OUTPUT
@@ -59,9 +61,8 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-        # Stage exactly the paths the previous step checked (tooling/ is git-ignored,
-        # so Retool's files are never part of the report)
-        git add COMPLETION.md verification/
+        # Stage exactly the paths the previous step checked
+        git add COMPLETION.md README.md verification/
         git commit -m "Weekly full verification report [automated]"
 
         # Rebase onto anything pushed meanwhile, then push
