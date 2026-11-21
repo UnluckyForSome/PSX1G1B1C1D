@@ -58,18 +58,14 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        
-        # Stage and commit our changes first
-        git add COMPLETION.md
-        git add verification/
-        git add tooling/retool/config/ 2>/dev/null || true
-        git commit -m "Weekly full verification report [automated]" || exit 0
-        
-        # Fetch latest changes and rebase our commit on top
-        git fetch origin main
-        git pull --rebase origin main || git pull origin main
-        
-        # Push to remote
+
+        # Stage exactly the paths the previous step checked (tooling/ is git-ignored,
+        # so Retool's files are never part of the report)
+        git add COMPLETION.md verification/
+        git commit -m "Weekly full verification report [automated]"
+
+        # Rebase onto anything pushed meanwhile, then push
+        git pull --rebase origin main
         git push origin main
 
 
