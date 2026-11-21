@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://progress-bar.xyz/93/?title=2D&style=for-the-badge&width=100" />
   <img src="https://progress-bar.xyz/93/?title=3D&style=for-the-badge&width=100" />
-  <img src="https://progress-bar.xyz/96/?title=Disc&style=for-the-badge&width=100" />
+  <img src="https://progress-bar.xyz/97/?title=Disc&style=for-the-badge&width=100" />
   <br/>
   <sub><i>
     Live progress of HQ assets against latest filtered Redump .DAT.<br>
